@@ -1,0 +1,9 @@
+[project]
+name = "rottr"
+sdk_version = "0.10.0"
+game_root = "."
+
+[entrypoint]
+file_path = "default.xex"
+out_directory_path = "generated/default"
+includes = ["analysis_overrides.toml"]

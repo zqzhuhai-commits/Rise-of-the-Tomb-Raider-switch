@@ -1,0 +1,12 @@
+{
+  "compiled_cpp_objects": 209,
+  "expected_guest_entries": 44867,
+  "defined_weak_guest_entries": 44867,
+  "missing_guest_aliases": [],
+  "alias_address_mismatches": [],
+  "all_aarch64_elf64_relocatable": true,
+  "compiler": "devkitA64 GCC 15.2.0",
+  "flags": "Release -O3; fp-contract off; strict aliasing off; loop and SLP vectorization off",
+  "runtime_linked": false,
+  "device_tested": false
+}

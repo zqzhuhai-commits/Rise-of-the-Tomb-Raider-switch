@@ -1,0 +1,10 @@
+{
+  "format": "NRO0",
+  "file_bytes": 78637253,
+  "sha256": "40757983a60c265a0b20578a7d3fd7791883aa0504760e4819ef470ad64f360f",
+  "segments_valid": true,
+  "nacp_title": "Rise of the Tomb Raider",
+  "nacp_version": "0.0.1-research",
+  "runtime_linked": true,
+  "device_tested": false
+}

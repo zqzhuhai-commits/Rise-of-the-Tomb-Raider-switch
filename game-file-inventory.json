@@ -1,0 +1,407 @@
+[
+  {
+    "path": "bigfile.000.nfo",
+    "sector": 1413554,
+    "size": 191
+  },
+  {
+    "path": "bigfile.000.tiger",
+    "sector": 364989,
+    "size": 2147459120
+  },
+  {
+    "path": "bigfile.001.tiger",
+    "sector": 1413555,
+    "size": 130651255
+  },
+  {
+    "path": "bigfile_CHINESE.000.tiger",
+    "sector": 265,
+    "size": 746954528
+  },
+  {
+    "path": "bigfile_ENGLISH.000.tiger",
+    "sector": 1837804,
+    "size": 855229584
+  },
+  {
+    "path": "bigfile_SIMPLCHINESE.000.tiger",
+    "sector": 1477350,
+    "size": 738208592
+  },
+  {
+    "path": "default.xex",
+    "sector": 2255397,
+    "size": 16531456
+  },
+  {
+    "path": "movies/01_rockbottom_cine.bik",
+    "sector": 2342249,
+    "size": 115805924
+  },
+  {
+    "path": "movies/03_carcrash_cine_03_part01.bik",
+    "sector": 2320687,
+    "size": 44158852
+  },
+  {
+    "path": "movies/04_thisistheplace_cine.bik",
+    "sector": 2398795,
+    "size": 9414364
+  },
+  {
+    "path": "movies/08_emptytomb_cine.bik",
+    "sector": 2298583,
+    "size": 45267964
+  },
+  {
+    "path": "movies/10_revelations_cine.bik",
+    "sector": 2415155,
+    "size": 49929068
+  },
+  {
+    "path": "movies/11_suppression_cine.bik",
+    "sector": 2403392,
+    "size": 24088944
+  },
+  {
+    "path": "movies/14_expedtion_a_cine.bik",
+    "sector": 2439535,
+    "size": 30367976
+  },
+  {
+    "path": "movies/15_almostthere_cine.bik",
+    "sector": 2295178,
+    "size": 6972064
+  },
+  {
+    "path": "movies/20_alive_cine.bik",
+    "sector": 2482549,
+    "size": 25793192
+  },
+  {
+    "path": "movies/21_whispersinthedark_cine.bik",
+    "sector": 2470488,
+    "size": 24699548
+  },
+  {
+    "path": "movies/22a_TheEnemy_cine.bik",
+    "sector": 2495144,
+    "size": 35139156
+  },
+  {
+    "path": "movies/22b_sofia_cine.bik",
+    "sector": 2454364,
+    "size": 33021488
+  },
+  {
+    "path": "movies/23_aconnection_cine.bik",
+    "sector": 2516462,
+    "size": 28571888
+  },
+  {
+    "path": "movies/25_captured_cine.bik",
+    "sector": 2512302,
+    "size": 8518708
+  },
+  {
+    "path": "movies/26_ana_cine.bik",
+    "sector": 2530414,
+    "size": 80352232
+  },
+  {
+    "path": "movies/27b_trustissues_cine.bik",
+    "sector": 2284549,
+    "size": 21768100
+  },
+  {
+    "path": "movies/27c_waithere_cine.bik",
+    "sector": 2615121,
+    "size": 10681780
+  },
+  {
+    "path": "movies/27_jacob_cine.bik",
+    "sector": 2603622,
+    "size": 23548068
+  },
+  {
+    "path": "movies/28b_getoutofdodge_cine.bik",
+    "sector": 2620337,
+    "size": 10743312
+  },
+  {
+    "path": "movies/28_atlas_cine.bik",
+    "sector": 2579178,
+    "size": 50059892
+  },
+  {
+    "path": "movies/29_theplunge_cine.bik",
+    "sector": 2626031,
+    "size": 11825912
+  },
+  {
+    "path": "movies/30_thedrowning_cine_a.bik",
+    "sector": 2625583,
+    "size": 915516
+  },
+  {
+    "path": "movies/31a_aloneagain_cine.bik",
+    "sector": 2631806,
+    "size": 72738496
+  },
+  {
+    "path": "movies/31b_findingjacob_cine.bik",
+    "sector": 2569649,
+    "size": 19513756
+  },
+  {
+    "path": "movies/35_inthroughtheoutdoor_cine.bik",
+    "sector": 2712204,
+    "size": 24990052
+  },
+  {
+    "path": "movies/36_meettheremnant_cine.bik",
+    "sector": 2680020,
+    "size": 65910988
+  },
+  {
+    "path": "movies/39b_setback_cine.bik",
+    "sector": 2724407,
+    "size": 38966544
+  },
+  {
+    "path": "movies/39_shotgun_cine.bik",
+    "sector": 2667323,
+    "size": 26003056
+  },
+  {
+    "path": "movies/40b_courtyardincursion_cine.bik",
+    "sector": 2749247,
+    "size": 3952104
+  },
+  {
+    "path": "movies/40c_remnantresistance_cine.bik",
+    "sector": 2743434,
+    "size": 11904328
+  },
+  {
+    "path": "movies/40d_planofaction_cine.bik",
+    "sector": 2751177,
+    "size": 18019076
+  },
+  {
+    "path": "movies/40_tothetower_cine.bik",
+    "sector": 2264372,
+    "size": 41321160
+  },
+  {
+    "path": "movies/41_retreat_cine.bik",
+    "sector": 2805232,
+    "size": 52952464
+  },
+  {
+    "path": "movies/44_cathedralambush_cine.bik",
+    "sector": 2789554,
+    "size": 32108008
+  },
+  {
+    "path": "movies/45_trapped_cine.bik",
+    "sector": 2831088,
+    "size": 18995672
+  },
+  {
+    "path": "movies/46_thedeathlessones_cine.bik",
+    "sector": 2785538,
+    "size": 8223772
+  },
+  {
+    "path": "movies/47b_reunion_cine.bik",
+    "sector": 2875977,
+    "size": 12885636
+  },
+  {
+    "path": "movies/47c_revealingthepath_cine.bik",
+    "sector": 2840364,
+    "size": 72933536
+  },
+  {
+    "path": "movies/47d_achoice_cine.bik",
+    "sector": 2882269,
+    "size": 29788668
+  },
+  {
+    "path": "movies/48a_locatingthesource_cine.bik",
+    "sector": 2771860,
+    "size": 28010964
+  },
+  {
+    "path": "movies/48_confrontations_cine.bik",
+    "sector": 2938366,
+    "size": 9022864
+  },
+  {
+    "path": "movies/50b_JonahsDemise_cine.bik",
+    "sector": 2928962,
+    "size": 19259312
+  },
+  {
+    "path": "movies/50_AnOldFriend_cine.bik",
+    "sector": 2942772,
+    "size": 38245056
+  },
+  {
+    "path": "movies/51_TehRace_cine.bik",
+    "sector": 2896815,
+    "size": 65836004
+  },
+  {
+    "path": "movies/56_theconstanceofkonstantin_cine.bik",
+    "sector": 2969256,
+    "size": 22004444
+  },
+  {
+    "path": "movies/57b_execution_cine.bik",
+    "sector": 2961447,
+    "size": 15990836
+  },
+  {
+    "path": "movies/57_thereckoning_cine.bik",
+    "sector": 2980001,
+    "size": 140398096
+  },
+  {
+    "path": "movies/59_anewbeginning_cine.bik",
+    "sector": 2759976,
+    "size": 24336588
+  },
+  {
+    "path": "movies/60_aftermath_cine.bik",
+    "sector": 3080171,
+    "size": 25614268
+  },
+  {
+    "path": "movies/avalanche_01.bik",
+    "sector": 3076841,
+    "size": 6819192
+  },
+  {
+    "path": "movies/avalanche_02.bik",
+    "sector": 3092678,
+    "size": 5798728
+  },
+  {
+    "path": "movies/avalanche_spire.bik",
+    "sector": 3075771,
+    "size": 2190308
+  },
+  {
+    "path": "movies/GI_Demo_Avalanche_Tumbling.bik",
+    "sector": 3095682,
+    "size": 11162336
+  },
+  {
+    "path": "movies/IGC_48b_Confrontations_Jonah_Torture.bik",
+    "sector": 3095510,
+    "size": 350428
+  },
+  {
+    "path": "movies/igc_cavein_cine.bik",
+    "sector": 3101133,
+    "size": 1789596
+  },
+  {
+    "path": "movies/igc_delugefinale_cine.bik",
+    "sector": 3070866,
+    "size": 10044908
+  },
+  {
+    "path": "movies/igc_icygrave.bik",
+    "sector": 3106413,
+    "size": 3149172
+  },
+  {
+    "path": "movies/igc_kh_top_of_acropolis.bik",
+    "sector": 3103404,
+    "size": 6161932
+  },
+  {
+    "path": "movies/igc_kitezh_hub_trebuchet_2.bik",
+    "sector": 3107951,
+    "size": 4996744
+  },
+  {
+    "path": "movies/igc_kitezh_hub_trebuchet_3.bik",
+    "sector": 3102007,
+    "size": 2860712
+  },
+  {
+    "path": "movies/igc_konstantin_takes_bow.bik",
+    "sector": 3111183,
+    "size": 2609168
+  },
+  {
+    "path": "movies/igc_tombkaboom_cine.bik",
+    "sector": 3110391,
+    "size": 1620984
+  },
+  {
+    "path": "movies/igc_trebuchetattack.bik",
+    "sector": 3112458,
+    "size": 9640472
+  },
+  {
+    "path": "movies/LevelLoad_14Expedition.bik",
+    "sector": 3048555,
+    "size": 45691284
+  },
+  {
+    "path": "movies/LevelLoad_14Expedition_b.bik",
+    "sector": 3135185,
+    "size": 61894472
+  },
+  {
+    "path": "movies/LevelLoad_SH3.bik",
+    "sector": 3125640,
+    "size": 19547536
+  },
+  {
+    "path": "movies/LevelLoad_VH4.bik",
+    "sector": 3165407,
+    "size": 15593164
+  },
+  {
+    "path": "movies/Scene_20_Alive_Flashback.bik",
+    "sector": 3117166,
+    "size": 17353928
+  },
+  {
+    "path": "movies/Scene_30_The_Drowning.bik",
+    "sector": 3174245,
+    "size": 8645008
+  },
+  {
+    "path": "movies/Scene_39b_est_shot.bik",
+    "sector": 3173021,
+    "size": 2506404
+  },
+  {
+    "path": "movies/Scene_3b_Good_Times.bik",
+    "sector": 3178467,
+    "size": 24082692
+  },
+  {
+    "path": "movies/Scene_47e_Regrets.bik",
+    "sector": 3190227,
+    "size": 15234708
+  },
+  {
+    "path": "NxeArt",
+    "sector": 2263469,
+    "size": 1843200
+  },
+  {
+    "path": "tr2.arg",
+    "sector": 2264369,
+    "size": 197
+  }
+]

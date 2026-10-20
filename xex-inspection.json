@@ -1,0 +1,39 @@
+{
+  "sha256": "47e6476f6d393d86612e7af938979e9c706b54dc526d8422413711999d41e585",
+  "file_size": 16531456,
+  "module_flags": "0x1",
+  "pe_file_offset": 16384,
+  "optional_header_count": 16,
+  "entry_point": "0x82b00790",
+  "image_base": "0x82000000",
+  "stack_size": "0x40000",
+  "format": {
+    "size": 40,
+    "encryption_type": 1,
+    "compression_type": 1
+  },
+  "execution": {
+    "title_id": "53510823",
+    "media_id": "0A657B25",
+    "version": "0.0.0.3",
+    "base_version": "0.0.0.3",
+    "disc_number": 1,
+    "disc_count": 1
+  },
+  "imports": {
+    "library_names": [
+      "xboxkrnl.exe",
+      "xam.xex"
+    ],
+    "libraries": [
+      {
+        "name_index": 0,
+        "import_record_count": 311
+      },
+      {
+        "name_index": 1,
+        "import_record_count": 230
+      }
+    ]
+  }
+}

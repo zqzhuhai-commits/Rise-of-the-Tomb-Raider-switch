@@ -1,0 +1,7 @@
+# Compatibility test build; hardware behavior and performance are unverified.
+user_language = 10
+gpu_plugin = "xenos"
+render_target_path_vulkan = "fsi"
+vulkan_validation_enabled = false
+log_level = "info"
+log_flush_level = "info"

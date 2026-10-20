@@ -1,0 +1,27 @@
+{
+  "file_bytes": 342744,
+  "sha256": "aa4fb3f279fc0665fd3e60b988aee5a81d0eb64b07ec3c761a39143de6e2bc88",
+  "title_id": "01524F5454520000",
+  "nca_count": 3,
+  "container_hashes_valid": true,
+  "headers_valid": true,
+  "contents": [
+    {
+      "name": "7979a2bdb32a3bef308027f670e308d8.nca",
+      "bytes": 155136,
+      "content_type": 0
+    },
+    {
+      "name": "e5639f8b352c91ba9a3354dd7484cc64.nca",
+      "bytes": 183296,
+      "content_type": 2
+    },
+    {
+      "name": "77f2ef2c23c0a7938d0ed2a8c9971701.cnmt.nca",
+      "bytes": 4096,
+      "content_type": 1
+    }
+  ],
+  "launches_nro": "sdmc:/switch/rottr-switch/rottr.nro",
+  "device_tested": false
+}

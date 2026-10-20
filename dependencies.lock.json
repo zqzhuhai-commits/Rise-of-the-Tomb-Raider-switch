@@ -1,0 +1,26 @@
+{
+  "cpu_codegen_sdk": "ReXGlue v0.10.0",
+  "horizon_sdk": {
+    "repository": "https://github.com/nebadasSwifty/masseffect-nx",
+    "commit": "a85b0b419ec3e332165ae1617c980bd399856a44"
+  },
+  "reference_port": {
+    "repository": "https://github.com/fungalspores/prototype-switch",
+    "commit": "292de4b382dbe335011d8b4f56ec4212df5ef74c"
+  },
+  "mesa": {
+    "repository": "https://github.com/danfromtico/mesa-switch",
+    "commit": "d4a00ea0ab3f59afb967cc5d779e4263d237bd77"
+  },
+  "toolchain_image": {
+    "repository": "devkitpro/devkita64",
+    "architecture": "linux/amd64",
+    "digest": "sha256:82575ea78651b530b2e232bb3799cfd1fe331514e053d5f724bb4b28191fb79d"
+  },
+  "compiler": "devkitA64 GCC 15.2.0",
+  "rust": "nightly-2026-09-26",
+  "patch_sha256": {
+    "rexglue-sdk-masseffect-nx.patch": "a7ac79c90273ed4b17233f8f88381183270f7f232b47aa134c651e4ae4677bcc",
+    "mesa-switch.patch": "9fbac11d5a4dd2c1270df9138aa15c895d8f9c7aa66a1602879149dfe65099da"
+  }
+}

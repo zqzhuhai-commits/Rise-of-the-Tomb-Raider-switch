@@ -1,0 +1,8 @@
+{
+  "mesa_commit": "d4a00ea0ab3f59afb967cc5d779e4263d237bd77",
+  "optimization": 2,
+  "archive_bytes": 89495132,
+  "sha256": "a84e0e1abab50d9cd4b1ea940368553d3c9d7f6996a9c5fe82b1cd5d3a9b3c25",
+  "cross_build_exit_code": 0,
+  "device_tested": false
+}

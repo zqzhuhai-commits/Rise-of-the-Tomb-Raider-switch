@@ -1,0 +1,4 @@
+# First-pass ReXGlue 0.10.0 validation identified this uncovered branch target.
+# This is a function-discovery hint, not a runtime compatibility fix.
+[functions]
+0x82C21240 = {}
