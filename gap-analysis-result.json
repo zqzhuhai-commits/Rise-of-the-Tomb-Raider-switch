@@ -1,0 +1,6073 @@
+{
+  "trap_marker": "__builtin_trap(); // Switch case out of range",
+  "total_traps": 607,
+  "codegen_result_json_traps": 607,
+  "matches_codegen_result": true,
+  "files_with_traps": [
+    "rottr_recomp.1.cpp",
+    "rottr_recomp.10.cpp",
+    "rottr_recomp.100.cpp",
+    "rottr_recomp.101.cpp",
+    "rottr_recomp.102.cpp",
+    "rottr_recomp.104.cpp",
+    "rottr_recomp.105.cpp",
+    "rottr_recomp.106.cpp",
+    "rottr_recomp.107.cpp",
+    "rottr_recomp.108.cpp",
+    "rottr_recomp.109.cpp",
+    "rottr_recomp.11.cpp",
+    "rottr_recomp.110.cpp",
+    "rottr_recomp.112.cpp",
+    "rottr_recomp.113.cpp",
+    "rottr_recomp.114.cpp",
+    "rottr_recomp.115.cpp",
+    "rottr_recomp.116.cpp",
+    "rottr_recomp.118.cpp",
+    "rottr_recomp.119.cpp",
+    "rottr_recomp.12.cpp",
+    "rottr_recomp.120.cpp",
+    "rottr_recomp.121.cpp",
+    "rottr_recomp.122.cpp",
+    "rottr_recomp.124.cpp",
+    "rottr_recomp.125.cpp",
+    "rottr_recomp.126.cpp",
+    "rottr_recomp.127.cpp",
+    "rottr_recomp.128.cpp",
+    "rottr_recomp.129.cpp",
+    "rottr_recomp.130.cpp",
+    "rottr_recomp.131.cpp",
+    "rottr_recomp.132.cpp",
+    "rottr_recomp.133.cpp",
+    "rottr_recomp.135.cpp",
+    "rottr_recomp.136.cpp",
+    "rottr_recomp.137.cpp",
+    "rottr_recomp.138.cpp",
+    "rottr_recomp.139.cpp",
+    "rottr_recomp.14.cpp",
+    "rottr_recomp.140.cpp",
+    "rottr_recomp.141.cpp",
+    "rottr_recomp.142.cpp",
+    "rottr_recomp.143.cpp",
+    "rottr_recomp.144.cpp",
+    "rottr_recomp.145.cpp",
+    "rottr_recomp.146.cpp",
+    "rottr_recomp.147.cpp",
+    "rottr_recomp.148.cpp",
+    "rottr_recomp.149.cpp",
+    "rottr_recomp.15.cpp",
+    "rottr_recomp.151.cpp",
+    "rottr_recomp.152.cpp",
+    "rottr_recomp.153.cpp",
+    "rottr_recomp.154.cpp",
+    "rottr_recomp.155.cpp",
+    "rottr_recomp.156.cpp",
+    "rottr_recomp.157.cpp",
+    "rottr_recomp.158.cpp",
+    "rottr_recomp.159.cpp",
+    "rottr_recomp.16.cpp",
+    "rottr_recomp.160.cpp",
+    "rottr_recomp.161.cpp",
+    "rottr_recomp.162.cpp",
+    "rottr_recomp.163.cpp",
+    "rottr_recomp.164.cpp",
+    "rottr_recomp.165.cpp",
+    "rottr_recomp.166.cpp",
+    "rottr_recomp.167.cpp",
+    "rottr_recomp.168.cpp",
+    "rottr_recomp.17.cpp",
+    "rottr_recomp.170.cpp",
+    "rottr_recomp.171.cpp",
+    "rottr_recomp.173.cpp",
+    "rottr_recomp.174.cpp",
+    "rottr_recomp.175.cpp",
+    "rottr_recomp.176.cpp",
+    "rottr_recomp.177.cpp",
+    "rottr_recomp.178.cpp",
+    "rottr_recomp.179.cpp",
+    "rottr_recomp.18.cpp",
+    "rottr_recomp.180.cpp",
+    "rottr_recomp.181.cpp",
+    "rottr_recomp.182.cpp",
+    "rottr_recomp.183.cpp",
+    "rottr_recomp.185.cpp",
+    "rottr_recomp.186.cpp",
+    "rottr_recomp.187.cpp",
+    "rottr_recomp.188.cpp",
+    "rottr_recomp.189.cpp",
+    "rottr_recomp.19.cpp",
+    "rottr_recomp.190.cpp",
+    "rottr_recomp.191.cpp",
+    "rottr_recomp.192.cpp",
+    "rottr_recomp.193.cpp",
+    "rottr_recomp.194.cpp",
+    "rottr_recomp.196.cpp",
+    "rottr_recomp.197.cpp",
+    "rottr_recomp.198.cpp",
+    "rottr_recomp.2.cpp",
+    "rottr_recomp.20.cpp",
+    "rottr_recomp.200.cpp",
+    "rottr_recomp.201.cpp",
+    "rottr_recomp.202.cpp",
+    "rottr_recomp.203.cpp",
+    "rottr_recomp.204.cpp",
+    "rottr_recomp.206.cpp",
+    "rottr_recomp.21.cpp",
+    "rottr_recomp.22.cpp",
+    "rottr_recomp.23.cpp",
+    "rottr_recomp.24.cpp",
+    "rottr_recomp.25.cpp",
+    "rottr_recomp.26.cpp",
+    "rottr_recomp.27.cpp",
+    "rottr_recomp.28.cpp",
+    "rottr_recomp.29.cpp",
+    "rottr_recomp.3.cpp",
+    "rottr_recomp.30.cpp",
+    "rottr_recomp.31.cpp",
+    "rottr_recomp.34.cpp",
+    "rottr_recomp.35.cpp",
+    "rottr_recomp.36.cpp",
+    "rottr_recomp.37.cpp",
+    "rottr_recomp.38.cpp",
+    "rottr_recomp.39.cpp",
+    "rottr_recomp.4.cpp",
+    "rottr_recomp.40.cpp",
+    "rottr_recomp.41.cpp",
+    "rottr_recomp.42.cpp",
+    "rottr_recomp.43.cpp",
+    "rottr_recomp.45.cpp",
+    "rottr_recomp.46.cpp",
+    "rottr_recomp.47.cpp",
+    "rottr_recomp.48.cpp",
+    "rottr_recomp.49.cpp",
+    "rottr_recomp.5.cpp",
+    "rottr_recomp.50.cpp",
+    "rottr_recomp.51.cpp",
+    "rottr_recomp.53.cpp",
+    "rottr_recomp.54.cpp",
+    "rottr_recomp.55.cpp",
+    "rottr_recomp.56.cpp",
+    "rottr_recomp.57.cpp",
+    "rottr_recomp.58.cpp",
+    "rottr_recomp.59.cpp",
+    "rottr_recomp.6.cpp",
+    "rottr_recomp.60.cpp",
+    "rottr_recomp.61.cpp",
+    "rottr_recomp.62.cpp",
+    "rottr_recomp.63.cpp",
+    "rottr_recomp.64.cpp",
+    "rottr_recomp.65.cpp",
+    "rottr_recomp.68.cpp",
+    "rottr_recomp.69.cpp",
+    "rottr_recomp.7.cpp",
+    "rottr_recomp.70.cpp",
+    "rottr_recomp.72.cpp",
+    "rottr_recomp.73.cpp",
+    "rottr_recomp.74.cpp",
+    "rottr_recomp.75.cpp",
+    "rottr_recomp.76.cpp",
+    "rottr_recomp.77.cpp",
+    "rottr_recomp.78.cpp",
+    "rottr_recomp.8.cpp",
+    "rottr_recomp.80.cpp",
+    "rottr_recomp.81.cpp",
+    "rottr_recomp.82.cpp",
+    "rottr_recomp.84.cpp",
+    "rottr_recomp.85.cpp",
+    "rottr_recomp.86.cpp",
+    "rottr_recomp.87.cpp",
+    "rottr_recomp.88.cpp",
+    "rottr_recomp.89.cpp",
+    "rottr_recomp.9.cpp",
+    "rottr_recomp.90.cpp",
+    "rottr_recomp.91.cpp",
+    "rottr_recomp.92.cpp",
+    "rottr_recomp.93.cpp",
+    "rottr_recomp.95.cpp",
+    "rottr_recomp.96.cpp",
+    "rottr_recomp.97.cpp",
+    "rottr_recomp.98.cpp",
+    "rottr_recomp.99.cpp"
+  ],
+  "distinct_switch_expressions": 20,
+  "functions": [
+    {
+      "address": "0x82A711A8",
+      "traps": 14
+    },
+    {
+      "address": "0x82AD2ED0",
+      "traps": 10
+    },
+    {
+      "address": "0x8268FC40",
+      "traps": 9
+    },
+    {
+      "address": "0x82AC27C0",
+      "traps": 8
+    },
+    {
+      "address": "0x82A97BE8",
+      "traps": 8
+    },
+    {
+      "address": "0x82AC0A88",
+      "traps": 7
+    },
+    {
+      "address": "0x82AEFE58",
+      "traps": 6
+    },
+    {
+      "address": "0x82A8B180",
+      "traps": 6
+    },
+    {
+      "address": "0x82AEF7F8",
+      "traps": 6
+    },
+    {
+      "address": "0x82A8B7A0",
+      "traps": 6
+    },
+    {
+      "address": "0x82A9A930",
+      "traps": 6
+    },
+    {
+      "address": "0x82AC0028",
+      "traps": 5
+    },
+    {
+      "address": "0x82A97770",
+      "traps": 4
+    },
+    {
+      "address": "0x82A658E8",
+      "traps": 4
+    },
+    {
+      "address": "0x82A98660",
+      "traps": 4
+    },
+    {
+      "address": "0x822D66C8",
+      "traps": 4
+    },
+    {
+      "address": "0x82AAF818",
+      "traps": 4
+    },
+    {
+      "address": "0x82AB6160",
+      "traps": 4
+    },
+    {
+      "address": "0x822E0AA0",
+      "traps": 4
+    },
+    {
+      "address": "0x82A972F8",
+      "traps": 4
+    },
+    {
+      "address": "0x82AB5138",
+      "traps": 4
+    },
+    {
+      "address": "0x82AD66F8",
+      "traps": 4
+    },
+    {
+      "address": "0x82AB47F8",
+      "traps": 4
+    },
+    {
+      "address": "0x82A654A8",
+      "traps": 4
+    },
+    {
+      "address": "0x82A66620",
+      "traps": 4
+    },
+    {
+      "address": "0x82AF01D8",
+      "traps": 4
+    },
+    {
+      "address": "0x82A994E0",
+      "traps": 4
+    },
+    {
+      "address": "0x82ABA2E0",
+      "traps": 4
+    },
+    {
+      "address": "0x82AB92A8",
+      "traps": 3
+    },
+    {
+      "address": "0x82406908",
+      "traps": 3
+    },
+    {
+      "address": "0x82BAF510",
+      "traps": 3
+    },
+    {
+      "address": "0x824072E8",
+      "traps": 3
+    },
+    {
+      "address": "0x82AEA8B8",
+      "traps": 3
+    },
+    {
+      "address": "0x82408AD0",
+      "traps": 3
+    },
+    {
+      "address": "0x82ABE4B0",
+      "traps": 3
+    },
+    {
+      "address": "0x822E00B0",
+      "traps": 3
+    },
+    {
+      "address": "0x82ABF200",
+      "traps": 3
+    },
+    {
+      "address": "0x8283EC38",
+      "traps": 3
+    },
+    {
+      "address": "0x829204C0",
+      "traps": 3
+    },
+    {
+      "address": "0x82AC15E8",
+      "traps": 3
+    },
+    {
+      "address": "0x82407880",
+      "traps": 3
+    },
+    {
+      "address": "0x82AD2108",
+      "traps": 3
+    },
+    {
+      "address": "0x82841838",
+      "traps": 2
+    },
+    {
+      "address": "0x822D6990",
+      "traps": 2
+    },
+    {
+      "address": "0x8294ED20",
+      "traps": 2
+    },
+    {
+      "address": "0x82AEEBF0",
+      "traps": 2
+    },
+    {
+      "address": "0x82449E08",
+      "traps": 2
+    },
+    {
+      "address": "0x825B01D8",
+      "traps": 2
+    },
+    {
+      "address": "0x8281CF98",
+      "traps": 2
+    },
+    {
+      "address": "0x824063A8",
+      "traps": 2
+    },
+    {
+      "address": "0x82ABD8F8",
+      "traps": 2
+    },
+    {
+      "address": "0x82AD26C8",
+      "traps": 2
+    },
+    {
+      "address": "0x825A2090",
+      "traps": 2
+    },
+    {
+      "address": "0x82AEA438",
+      "traps": 2
+    },
+    {
+      "address": "0x82AF1890",
+      "traps": 2
+    },
+    {
+      "address": "0x82920210",
+      "traps": 2
+    },
+    {
+      "address": "0x82AF1650",
+      "traps": 2
+    },
+    {
+      "address": "0x824070A8",
+      "traps": 2
+    },
+    {
+      "address": "0x8289F268",
+      "traps": 2
+    },
+    {
+      "address": "0x82AD4EA0",
+      "traps": 2
+    },
+    {
+      "address": "0x828A0040",
+      "traps": 2
+    },
+    {
+      "address": "0x82AC4110",
+      "traps": 2
+    },
+    {
+      "address": "0x82AEAE58",
+      "traps": 2
+    },
+    {
+      "address": "0x82AAFE48",
+      "traps": 2
+    },
+    {
+      "address": "0x82AEA070",
+      "traps": 2
+    },
+    {
+      "address": "0x82ABD2C0",
+      "traps": 2
+    },
+    {
+      "address": "0x82A991B0",
+      "traps": 2
+    },
+    {
+      "address": "0x82878670",
+      "traps": 2
+    },
+    {
+      "address": "0x82A96F90",
+      "traps": 2
+    },
+    {
+      "address": "0x82AC5788",
+      "traps": 2
+    },
+    {
+      "address": "0x828FC0F8",
+      "traps": 2
+    },
+    {
+      "address": "0x82AD2CE8",
+      "traps": 2
+    },
+    {
+      "address": "0x8291E808",
+      "traps": 2
+    },
+    {
+      "address": "0x82AC5CA8",
+      "traps": 2
+    },
+    {
+      "address": "0x825E08F0",
+      "traps": 2
+    },
+    {
+      "address": "0x826C47C0",
+      "traps": 2
+    },
+    {
+      "address": "0x82AEF018",
+      "traps": 2
+    },
+    {
+      "address": "0x82A93880",
+      "traps": 2
+    },
+    {
+      "address": "0x82AC3628",
+      "traps": 2
+    },
+    {
+      "address": "0x82A8BFD0",
+      "traps": 2
+    },
+    {
+      "address": "0x8291F188",
+      "traps": 2
+    },
+    {
+      "address": "0x82ABAC68",
+      "traps": 2
+    },
+    {
+      "address": "0x822DECF8",
+      "traps": 2
+    },
+    {
+      "address": "0x822DA610",
+      "traps": 2
+    },
+    {
+      "address": "0x82A99990",
+      "traps": 2
+    },
+    {
+      "address": "0x8291F6C0",
+      "traps": 2
+    },
+    {
+      "address": "0x82A93B68",
+      "traps": 2
+    },
+    {
+      "address": "0x824E8CD8",
+      "traps": 1
+    },
+    {
+      "address": "0x822D7568",
+      "traps": 1
+    },
+    {
+      "address": "0x82243188",
+      "traps": 1
+    },
+    {
+      "address": "0x828E8CD0",
+      "traps": 1
+    },
+    {
+      "address": "0x822E4C10",
+      "traps": 1
+    },
+    {
+      "address": "0x82579B80",
+      "traps": 1
+    },
+    {
+      "address": "0x8290BF30",
+      "traps": 1
+    },
+    {
+      "address": "0x82C01270",
+      "traps": 1
+    },
+    {
+      "address": "0x823F1F88",
+      "traps": 1
+    },
+    {
+      "address": "0x825AADC8",
+      "traps": 1
+    },
+    {
+      "address": "0x828E8DE8",
+      "traps": 1
+    },
+    {
+      "address": "0x82408408",
+      "traps": 1
+    },
+    {
+      "address": "0x8279DBE8",
+      "traps": 1
+    },
+    {
+      "address": "0x822D6408",
+      "traps": 1
+    },
+    {
+      "address": "0x82940EE0",
+      "traps": 1
+    },
+    {
+      "address": "0x827AFB70",
+      "traps": 1
+    },
+    {
+      "address": "0x82C71B38",
+      "traps": 1
+    },
+    {
+      "address": "0x82B8EBF0",
+      "traps": 1
+    },
+    {
+      "address": "0x822D8C30",
+      "traps": 1
+    },
+    {
+      "address": "0x823CF660",
+      "traps": 1
+    },
+    {
+      "address": "0x826B19B0",
+      "traps": 1
+    },
+    {
+      "address": "0x82B46950",
+      "traps": 1
+    },
+    {
+      "address": "0x822DC1B8",
+      "traps": 1
+    },
+    {
+      "address": "0x823CF9B8",
+      "traps": 1
+    },
+    {
+      "address": "0x82651780",
+      "traps": 1
+    },
+    {
+      "address": "0x822D5A28",
+      "traps": 1
+    },
+    {
+      "address": "0x82A10E28",
+      "traps": 1
+    },
+    {
+      "address": "0x824087B8",
+      "traps": 1
+    },
+    {
+      "address": "0x824AF7B0",
+      "traps": 1
+    },
+    {
+      "address": "0x822D5F78",
+      "traps": 1
+    },
+    {
+      "address": "0x823CF900",
+      "traps": 1
+    },
+    {
+      "address": "0x827F25E8",
+      "traps": 1
+    },
+    {
+      "address": "0x82A7F8A8",
+      "traps": 1
+    },
+    {
+      "address": "0x82821890",
+      "traps": 1
+    },
+    {
+      "address": "0x82B887C0",
+      "traps": 1
+    },
+    {
+      "address": "0x82507428",
+      "traps": 1
+    },
+    {
+      "address": "0x824780B0",
+      "traps": 1
+    },
+    {
+      "address": "0x8280A6D8",
+      "traps": 1
+    },
+    {
+      "address": "0x82888588",
+      "traps": 1
+    },
+    {
+      "address": "0x8265BE50",
+      "traps": 1
+    },
+    {
+      "address": "0x82CC6CB0",
+      "traps": 1
+    },
+    {
+      "address": "0x822D9FE0",
+      "traps": 1
+    },
+    {
+      "address": "0x822D6168",
+      "traps": 1
+    },
+    {
+      "address": "0x82400590",
+      "traps": 1
+    },
+    {
+      "address": "0x825A9120",
+      "traps": 1
+    },
+    {
+      "address": "0x8265BBD0",
+      "traps": 1
+    },
+    {
+      "address": "0x822E2D50",
+      "traps": 1
+    },
+    {
+      "address": "0x827BAD80",
+      "traps": 1
+    },
+    {
+      "address": "0x82933200",
+      "traps": 1
+    },
+    {
+      "address": "0x8253C768",
+      "traps": 1
+    },
+    {
+      "address": "0x82662070",
+      "traps": 1
+    },
+    {
+      "address": "0x82719D68",
+      "traps": 1
+    },
+    {
+      "address": "0x82474680",
+      "traps": 1
+    },
+    {
+      "address": "0x82508600",
+      "traps": 1
+    },
+    {
+      "address": "0x82579390",
+      "traps": 1
+    },
+    {
+      "address": "0x8266B508",
+      "traps": 1
+    },
+    {
+      "address": "0x827270C8",
+      "traps": 1
+    },
+    {
+      "address": "0x82CC9F80",
+      "traps": 1
+    },
+    {
+      "address": "0x8248AA00",
+      "traps": 1
+    },
+    {
+      "address": "0x82A4A5C0",
+      "traps": 1
+    },
+    {
+      "address": "0x822D99F0",
+      "traps": 1
+    },
+    {
+      "address": "0x82A26E40",
+      "traps": 1
+    },
+    {
+      "address": "0x8251C1A8",
+      "traps": 1
+    },
+    {
+      "address": "0x82916898",
+      "traps": 1
+    },
+    {
+      "address": "0x82506838",
+      "traps": 1
+    },
+    {
+      "address": "0x82817E40",
+      "traps": 1
+    },
+    {
+      "address": "0x822DE3E0",
+      "traps": 1
+    },
+    {
+      "address": "0x823FE808",
+      "traps": 1
+    },
+    {
+      "address": "0x824EA550",
+      "traps": 1
+    },
+    {
+      "address": "0x82738900",
+      "traps": 1
+    },
+    {
+      "address": "0x823DFFD8",
+      "traps": 1
+    },
+    {
+      "address": "0x8281EF00",
+      "traps": 1
+    },
+    {
+      "address": "0x828E82C8",
+      "traps": 1
+    },
+    {
+      "address": "0x82CC0B78",
+      "traps": 1
+    },
+    {
+      "address": "0x82682BA0",
+      "traps": 1
+    },
+    {
+      "address": "0x827A02A0",
+      "traps": 1
+    },
+    {
+      "address": "0x828BEEA0",
+      "traps": 1
+    },
+    {
+      "address": "0x824FE820",
+      "traps": 1
+    },
+    {
+      "address": "0x82508018",
+      "traps": 1
+    },
+    {
+      "address": "0x82B885C0",
+      "traps": 1
+    },
+    {
+      "address": "0x8244A410",
+      "traps": 1
+    },
+    {
+      "address": "0x827A3FC0",
+      "traps": 1
+    },
+    {
+      "address": "0x82B3FB88",
+      "traps": 1
+    },
+    {
+      "address": "0x828E7050",
+      "traps": 1
+    },
+    {
+      "address": "0x828E8500",
+      "traps": 1
+    },
+    {
+      "address": "0x82743FA8",
+      "traps": 1
+    },
+    {
+      "address": "0x8231F1A8",
+      "traps": 1
+    },
+    {
+      "address": "0x82A37650",
+      "traps": 1
+    },
+    {
+      "address": "0x825A9018",
+      "traps": 1
+    },
+    {
+      "address": "0x82A3E400",
+      "traps": 1
+    },
+    {
+      "address": "0x82244A18",
+      "traps": 1
+    },
+    {
+      "address": "0x822D83F0",
+      "traps": 1
+    },
+    {
+      "address": "0x8253D500",
+      "traps": 1
+    },
+    {
+      "address": "0x826B82D8",
+      "traps": 1
+    },
+    {
+      "address": "0x82A48430",
+      "traps": 1
+    },
+    {
+      "address": "0x826B89A0",
+      "traps": 1
+    },
+    {
+      "address": "0x828E8AF8",
+      "traps": 1
+    },
+    {
+      "address": "0x825798D8",
+      "traps": 1
+    },
+    {
+      "address": "0x829E3C28",
+      "traps": 1
+    },
+    {
+      "address": "0x824086A0",
+      "traps": 1
+    },
+    {
+      "address": "0x828E9008",
+      "traps": 1
+    },
+    {
+      "address": "0x82911200",
+      "traps": 1
+    },
+    {
+      "address": "0x823CF790",
+      "traps": 1
+    },
+    {
+      "address": "0x826E97D8",
+      "traps": 1
+    },
+    {
+      "address": "0x82B91F20",
+      "traps": 1
+    },
+    {
+      "address": "0x82502330",
+      "traps": 1
+    },
+    {
+      "address": "0x8279E220",
+      "traps": 1
+    },
+    {
+      "address": "0x82A1D268",
+      "traps": 1
+    },
+    {
+      "address": "0x822DDAD8",
+      "traps": 1
+    },
+    {
+      "address": "0x82640958",
+      "traps": 1
+    },
+    {
+      "address": "0x82840148",
+      "traps": 1
+    },
+    {
+      "address": "0x82999E00",
+      "traps": 1
+    },
+    {
+      "address": "0x828FBC78",
+      "traps": 1
+    },
+    {
+      "address": "0x82492980",
+      "traps": 1
+    },
+    {
+      "address": "0x8247BF38",
+      "traps": 1
+    },
+    {
+      "address": "0x82414518",
+      "traps": 1
+    },
+    {
+      "address": "0x8245E088",
+      "traps": 1
+    },
+    {
+      "address": "0x827DC0A8",
+      "traps": 1
+    },
+    {
+      "address": "0x827A3D98",
+      "traps": 1
+    },
+    {
+      "address": "0x8228E2F8",
+      "traps": 1
+    },
+    {
+      "address": "0x82408C68",
+      "traps": 1
+    },
+    {
+      "address": "0x829330A8",
+      "traps": 1
+    },
+    {
+      "address": "0x8251BE38",
+      "traps": 1
+    },
+    {
+      "address": "0x822DD1E0",
+      "traps": 1
+    },
+    {
+      "address": "0x828A71B8",
+      "traps": 1
+    },
+    {
+      "address": "0x827A3550",
+      "traps": 1
+    },
+    {
+      "address": "0x822D56F0",
+      "traps": 1
+    },
+    {
+      "address": "0x82728B48",
+      "traps": 1
+    },
+    {
+      "address": "0x82A9B320",
+      "traps": 1
+    },
+    {
+      "address": "0x824AF8F0",
+      "traps": 1
+    },
+    {
+      "address": "0x825089C8",
+      "traps": 1
+    },
+    {
+      "address": "0x82A3E4E0",
+      "traps": 1
+    },
+    {
+      "address": "0x82898320",
+      "traps": 1
+    },
+    {
+      "address": "0x822D4E28",
+      "traps": 1
+    },
+    {
+      "address": "0x82743918",
+      "traps": 1
+    },
+    {
+      "address": "0x82843B48",
+      "traps": 1
+    },
+    {
+      "address": "0x828B4290",
+      "traps": 1
+    },
+    {
+      "address": "0x82823B78",
+      "traps": 1
+    },
+    {
+      "address": "0x822D7C00",
+      "traps": 1
+    },
+    {
+      "address": "0x824A1958",
+      "traps": 1
+    },
+    {
+      "address": "0x82A6BB80",
+      "traps": 1
+    },
+    {
+      "address": "0x822EA9B0",
+      "traps": 1
+    },
+    {
+      "address": "0x827E0BD8",
+      "traps": 1
+    },
+    {
+      "address": "0x823FD990",
+      "traps": 1
+    },
+    {
+      "address": "0x82CB1E40",
+      "traps": 1
+    },
+    {
+      "address": "0x82508CE0",
+      "traps": 1
+    },
+    {
+      "address": "0x82A0CF18",
+      "traps": 1
+    },
+    {
+      "address": "0x82CC1F88",
+      "traps": 1
+    },
+    {
+      "address": "0x822DC998",
+      "traps": 1
+    },
+    {
+      "address": "0x827AD678",
+      "traps": 1
+    },
+    {
+      "address": "0x827FAEE0",
+      "traps": 1
+    },
+    {
+      "address": "0x822DACD0",
+      "traps": 1
+    },
+    {
+      "address": "0x828E8F80",
+      "traps": 1
+    },
+    {
+      "address": "0x822D9530",
+      "traps": 1
+    },
+    {
+      "address": "0x82319F10",
+      "traps": 1
+    },
+    {
+      "address": "0x8281F188",
+      "traps": 1
+    },
+    {
+      "address": "0x82A9B0A8",
+      "traps": 1
+    },
+    {
+      "address": "0x822D5D98",
+      "traps": 1
+    },
+    {
+      "address": "0x82757A08",
+      "traps": 1
+    },
+    {
+      "address": "0x82932F38",
+      "traps": 1
+    },
+    {
+      "address": "0x82965230",
+      "traps": 1
+    },
+    {
+      "address": "0x82BCCD80",
+      "traps": 1
+    },
+    {
+      "address": "0x823B0EC8",
+      "traps": 1
+    },
+    {
+      "address": "0x8246FDB0",
+      "traps": 1
+    },
+    {
+      "address": "0x822D8000",
+      "traps": 1
+    },
+    {
+      "address": "0x82703460",
+      "traps": 1
+    },
+    {
+      "address": "0x827C2BF8",
+      "traps": 1
+    },
+    {
+      "address": "0x82503BC8",
+      "traps": 1
+    },
+    {
+      "address": "0x822D4C48",
+      "traps": 1
+    },
+    {
+      "address": "0x822E2128",
+      "traps": 1
+    },
+    {
+      "address": "0x826DBE50",
+      "traps": 1
+    },
+    {
+      "address": "0x82909680",
+      "traps": 1
+    },
+    {
+      "address": "0x8298C448",
+      "traps": 1
+    },
+    {
+      "address": "0x82B89558",
+      "traps": 1
+    },
+    {
+      "address": "0x823CF6F8",
+      "traps": 1
+    },
+    {
+      "address": "0x82A96EA0",
+      "traps": 1
+    },
+    {
+      "address": "0x82C218E8",
+      "traps": 1
+    },
+    {
+      "address": "0x82CC2A70",
+      "traps": 1
+    },
+    {
+      "address": "0x822D78A8",
+      "traps": 1
+    },
+    {
+      "address": "0x827346E8",
+      "traps": 1
+    },
+    {
+      "address": "0x827995C8",
+      "traps": 1
+    },
+    {
+      "address": "0x8291DA50",
+      "traps": 1
+    },
+    {
+      "address": "0x822D5870",
+      "traps": 1
+    },
+    {
+      "address": "0x8231F378",
+      "traps": 1
+    },
+    {
+      "address": "0x82A07C68",
+      "traps": 1
+    },
+    {
+      "address": "0x822D7240",
+      "traps": 1
+    },
+    {
+      "address": "0x828FF8C8",
+      "traps": 1
+    },
+    {
+      "address": "0x8281F250",
+      "traps": 1
+    },
+    {
+      "address": "0x823E0360",
+      "traps": 1
+    },
+    {
+      "address": "0x82665EE8",
+      "traps": 1
+    },
+    {
+      "address": "0x82818678",
+      "traps": 1
+    },
+    {
+      "address": "0x8231E480",
+      "traps": 1
+    },
+    {
+      "address": "0x822DB9A8",
+      "traps": 1
+    },
+    {
+      "address": "0x822D4F68",
+      "traps": 1
+    },
+    {
+      "address": "0x8246DFB0",
+      "traps": 1
+    },
+    {
+      "address": "0x825A93C0",
+      "traps": 1
+    },
+    {
+      "address": "0x82929458",
+      "traps": 1
+    },
+    {
+      "address": "0x82517AA8",
+      "traps": 1
+    },
+    {
+      "address": "0x822E5C60",
+      "traps": 1
+    },
+    {
+      "address": "0x823E01B8",
+      "traps": 1
+    },
+    {
+      "address": "0x82755918",
+      "traps": 1
+    },
+    {
+      "address": "0x828BD308",
+      "traps": 1
+    },
+    {
+      "address": "0x82724DE0",
+      "traps": 1
+    },
+    {
+      "address": "0x8294EA50",
+      "traps": 1
+    },
+    {
+      "address": "0x82A7F5F8",
+      "traps": 1
+    },
+    {
+      "address": "0x82BFD198",
+      "traps": 1
+    },
+    {
+      "address": "0x82CCA7F8",
+      "traps": 1
+    },
+    {
+      "address": "0x822E8668",
+      "traps": 1
+    },
+    {
+      "address": "0x82599680",
+      "traps": 1
+    },
+    {
+      "address": "0x82517DB0",
+      "traps": 1
+    },
+    {
+      "address": "0x8265B940",
+      "traps": 1
+    },
+    {
+      "address": "0x822D6C68",
+      "traps": 1
+    },
+    {
+      "address": "0x82406850",
+      "traps": 1
+    },
+    {
+      "address": "0x822D6F40",
+      "traps": 1
+    },
+    {
+      "address": "0x8283E280",
+      "traps": 1
+    },
+    {
+      "address": "0x8288E1D0",
+      "traps": 1
+    },
+    {
+      "address": "0x822E1520",
+      "traps": 1
+    },
+    {
+      "address": "0x82515F58",
+      "traps": 1
+    },
+    {
+      "address": "0x825ACBA0",
+      "traps": 1
+    },
+    {
+      "address": "0x82620E48",
+      "traps": 1
+    },
+    {
+      "address": "0x827C2A08",
+      "traps": 1
+    },
+    {
+      "address": "0x829668C0",
+      "traps": 1
+    },
+    {
+      "address": "0x824E8080",
+      "traps": 1
+    },
+    {
+      "address": "0x826BB4B0",
+      "traps": 1
+    },
+    {
+      "address": "0x8283E6E8",
+      "traps": 1
+    },
+    {
+      "address": "0x82949A90",
+      "traps": 1
+    },
+    {
+      "address": "0x822D5BE0",
+      "traps": 1
+    },
+    {
+      "address": "0x82B6EE20",
+      "traps": 1
+    },
+    {
+      "address": "0x82507AD8",
+      "traps": 1
+    },
+    {
+      "address": "0x825A8F10",
+      "traps": 1
+    },
+    {
+      "address": "0x82C8C448",
+      "traps": 1
+    },
+    {
+      "address": "0x822D90A8",
+      "traps": 1
+    },
+    {
+      "address": "0x825C4938",
+      "traps": 1
+    },
+    {
+      "address": "0x828AB1E8",
+      "traps": 1
+    },
+    {
+      "address": "0x826BC2F0",
+      "traps": 1
+    },
+    {
+      "address": "0x8281CA10",
+      "traps": 1
+    },
+    {
+      "address": "0x82507C88",
+      "traps": 1
+    },
+    {
+      "address": "0x823CF848",
+      "traps": 1
+    },
+    {
+      "address": "0x822D5428",
+      "traps": 1
+    },
+    {
+      "address": "0x82B40188",
+      "traps": 1
+    },
+    {
+      "address": "0x825BD588",
+      "traps": 1
+    },
+    {
+      "address": "0x822D4D58",
+      "traps": 1
+    },
+    {
+      "address": "0x824CF1E0",
+      "traps": 1
+    },
+    {
+      "address": "0x827BB5F8",
+      "traps": 1
+    },
+    {
+      "address": "0x82840558",
+      "traps": 1
+    },
+    {
+      "address": "0x823F8190",
+      "traps": 1
+    },
+    {
+      "address": "0x8246FB50",
+      "traps": 1
+    },
+    {
+      "address": "0x8271BAB0",
+      "traps": 1
+    },
+    {
+      "address": "0x82321158",
+      "traps": 1
+    },
+    {
+      "address": "0x825E19B8",
+      "traps": 1
+    },
+    {
+      "address": "0x821A2548",
+      "traps": 1
+    },
+    {
+      "address": "0x82548888",
+      "traps": 1
+    },
+    {
+      "address": "0x82A37A60",
+      "traps": 1
+    },
+    {
+      "address": "0x82578F48",
+      "traps": 1
+    },
+    {
+      "address": "0x827602F8",
+      "traps": 1
+    },
+    {
+      "address": "0x821A6198",
+      "traps": 1
+    },
+    {
+      "address": "0x822D8810",
+      "traps": 1
+    },
+    {
+      "address": "0x822D51A8",
+      "traps": 1
+    },
+    {
+      "address": "0x825795D0",
+      "traps": 1
+    },
+    {
+      "address": "0x82C71EF8",
+      "traps": 1
+    },
+    {
+      "address": "0x822D5080",
+      "traps": 1
+    },
+    {
+      "address": "0x82319A10",
+      "traps": 1
+    },
+    {
+      "address": "0x82743D68",
+      "traps": 1
+    },
+    {
+      "address": "0x827C7378",
+      "traps": 1
+    },
+    {
+      "address": "0x824D8240",
+      "traps": 1
+    },
+    {
+      "address": "0x827A40E0",
+      "traps": 1
+    },
+    {
+      "address": "0x827A6238",
+      "traps": 1
+    },
+    {
+      "address": "0x825C2C30",
+      "traps": 1
+    },
+    {
+      "address": "0x82B1E158",
+      "traps": 1
+    },
+    {
+      "address": "0x82508410",
+      "traps": 1
+    },
+    {
+      "address": "0x82A0F7D8",
+      "traps": 1
+    },
+    {
+      "address": "0x822E3C48",
+      "traps": 1
+    },
+    {
+      "address": "0x82408868",
+      "traps": 1
+    },
+    {
+      "address": "0x825ACA48",
+      "traps": 1
+    },
+    {
+      "address": "0x8283A308",
+      "traps": 1
+    },
+    {
+      "address": "0x82702B68",
+      "traps": 1
+    },
+    {
+      "address": "0x827191E8",
+      "traps": 1
+    },
+    {
+      "address": "0x827C2840",
+      "traps": 1
+    },
+    {
+      "address": "0x822D18E0",
+      "traps": 1
+    },
+    {
+      "address": "0x822DB3B8",
+      "traps": 1
+    },
+    {
+      "address": "0x828182F8",
+      "traps": 1
+    },
+    {
+      "address": "0x82304900",
+      "traps": 1
+    },
+    {
+      "address": "0x82507E28",
+      "traps": 1
+    },
+    {
+      "address": "0x82819108",
+      "traps": 1
+    },
+    {
+      "address": "0x82905540",
+      "traps": 1
+    },
+    {
+      "address": "0x82A8A720",
+      "traps": 1
+    },
+    {
+      "address": "0x822D4CC0",
+      "traps": 1
+    },
+    {
+      "address": "0x823CFA50",
+      "traps": 1
+    },
+    {
+      "address": "0x8291CF30",
+      "traps": 1
+    },
+    {
+      "address": "0x82B6A438",
+      "traps": 1
+    },
+    {
+      "address": "0x8248E0A8",
+      "traps": 1
+    },
+    {
+      "address": "0x82C21EE8",
+      "traps": 1
+    },
+    {
+      "address": "0x822E6ED0",
+      "traps": 1
+    },
+    {
+      "address": "0x82A5A020",
+      "traps": 1
+    },
+    {
+      "address": "0x824E8AE8",
+      "traps": 1
+    },
+    {
+      "address": "0x825A3CE0",
+      "traps": 1
+    },
+    {
+      "address": "0x827D5130",
+      "traps": 1
+    },
+    {
+      "address": "0x825E1568",
+      "traps": 1
+    },
+    {
+      "address": "0x826BE190",
+      "traps": 1
+    },
+    {
+      "address": "0x827E37A0",
+      "traps": 1
+    },
+    {
+      "address": "0x822DF718",
+      "traps": 1
+    },
+    {
+      "address": "0x824006C8",
+      "traps": 1
+    },
+    {
+      "address": "0x8246DF00",
+      "traps": 1
+    },
+    {
+      "address": "0x827AD290",
+      "traps": 1
+    },
+    {
+      "address": "0x8275D888",
+      "traps": 1
+    },
+    {
+      "address": "0x8291EFF0",
+      "traps": 1
+    },
+    {
+      "address": "0x822D52D8",
+      "traps": 1
+    },
+    {
+      "address": "0x82755740",
+      "traps": 1
+    },
+    {
+      "address": "0x8281E468",
+      "traps": 1
+    },
+    {
+      "address": "0x82CBF888",
+      "traps": 1
+    },
+    {
+      "address": "0x8291BCD8",
+      "traps": 1
+    },
+    {
+      "address": "0x822D5588",
+      "traps": 1
+    },
+    {
+      "address": "0x826EA2C8",
+      "traps": 1
+    },
+    {
+      "address": "0x824062E0",
+      "traps": 1
+    },
+    {
+      "address": "0x82702CA0",
+      "traps": 1
+    },
+    {
+      "address": "0x829E9E80",
+      "traps": 1
+    },
+    {
+      "address": "0x82C887D8",
+      "traps": 1
+    },
+    {
+      "address": "0x8245DE58",
+      "traps": 1
+    },
+    {
+      "address": "0x824EF040",
+      "traps": 1
+    },
+    {
+      "address": "0x826BAE28",
+      "traps": 1
+    }
+  ],
+  "sites": [
+    {
+      "file": "rottr_recomp.1.cpp",
+      "line": 9622,
+      "function": "0x824E8CD8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.1.cpp",
+      "line": 26644,
+      "function": "0x82AC0A88",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.1.cpp",
+      "line": 26725,
+      "function": "0x82AC0A88",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.1.cpp",
+      "line": 26883,
+      "function": "0x82AC0A88",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.1.cpp",
+      "line": 26964,
+      "function": "0x82AC0A88",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.1.cpp",
+      "line": 27099,
+      "function": "0x82AC0A88",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.1.cpp",
+      "line": 27773,
+      "function": "0x82AC0A88",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.1.cpp",
+      "line": 27866,
+      "function": "0x82AC0A88",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.10.cpp",
+      "line": 4450,
+      "function": "0x822D7568",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.100.cpp",
+      "line": 2288,
+      "function": "0x82243188",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.100.cpp",
+      "line": 21105,
+      "function": "0x828E8CD0",
+      "switch_expr": "ctx.r30.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.100.cpp",
+      "line": 26820,
+      "function": "0x82AC27C0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.100.cpp",
+      "line": 26907,
+      "function": "0x82AC27C0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.100.cpp",
+      "line": 27075,
+      "function": "0x82AC27C0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.100.cpp",
+      "line": 27128,
+      "function": "0x82AC27C0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.100.cpp",
+      "line": 27245,
+      "function": "0x82AC27C0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.100.cpp",
+      "line": 27325,
+      "function": "0x82AC27C0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.100.cpp",
+      "line": 27490,
+      "function": "0x82AC27C0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.100.cpp",
+      "line": 27571,
+      "function": "0x82AC27C0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.101.cpp",
+      "line": 3534,
+      "function": "0x822E4C10",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.101.cpp",
+      "line": 9852,
+      "function": "0x82579B80",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.101.cpp",
+      "line": 20667,
+      "function": "0x8290BF30",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.101.cpp",
+      "line": 29791,
+      "function": "0x82C01270",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.102.cpp",
+      "line": 6847,
+      "function": "0x823F1F88",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.102.cpp",
+      "line": 11967,
+      "function": "0x825AADC8",
+      "switch_expr": "ctx.r3.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.102.cpp",
+      "line": 21109,
+      "function": "0x828E8DE8",
+      "switch_expr": "ctx.r31.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.104.cpp",
+      "line": 7067,
+      "function": "0x82408408",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.104.cpp",
+      "line": 17286,
+      "function": "0x8279DBE8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.105.cpp",
+      "line": 4263,
+      "function": "0x822D6408",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.105.cpp",
+      "line": 22854,
+      "function": "0x82940EE0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.105.cpp",
+      "line": 26516,
+      "function": "0x82A97770",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.105.cpp",
+      "line": 26601,
+      "function": "0x82A97770",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.105.cpp",
+      "line": 26782,
+      "function": "0x82A97770",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.105.cpp",
+      "line": 26873,
+      "function": "0x82A97770",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.106.cpp",
+      "line": 18700,
+      "function": "0x827AFB70",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.106.cpp",
+      "line": 28303,
+      "function": "0x82AEFE58",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.106.cpp",
+      "line": 28395,
+      "function": "0x82AEFE58",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.106.cpp",
+      "line": 28473,
+      "function": "0x82AEFE58",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.106.cpp",
+      "line": 28521,
+      "function": "0x82AEFE58",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.106.cpp",
+      "line": 28586,
+      "function": "0x82AEFE58",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.106.cpp",
+      "line": 28634,
+      "function": "0x82AEFE58",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.107.cpp",
+      "line": 32312,
+      "function": "0x82C71B38",
+      "switch_expr": "ctx.r3.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.108.cpp",
+      "line": 20204,
+      "function": "0x82841838",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.108.cpp",
+      "line": 20602,
+      "function": "0x82841838",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.109.cpp",
+      "line": 30907,
+      "function": "0x82B8EBF0",
+      "switch_expr": "ctx.r30.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.11.cpp",
+      "line": 4066,
+      "function": "0x822D6990",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.11.cpp",
+      "line": 4275,
+      "function": "0x822D6990",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.11.cpp",
+      "line": 23219,
+      "function": "0x8294ED20",
+      "switch_expr": "ctx.r27.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.11.cpp",
+      "line": 23538,
+      "function": "0x8294ED20",
+      "switch_expr": "ctx.r27.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.110.cpp",
+      "line": 4560,
+      "function": "0x822D8C30",
+      "switch_expr": "ctx.r5.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.112.cpp",
+      "line": 6332,
+      "function": "0x823CF660",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.112.cpp",
+      "line": 14245,
+      "function": "0x826B19B0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.112.cpp",
+      "line": 26061,
+      "function": "0x82B46950",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.113.cpp",
+      "line": 3971,
+      "function": "0x822DC1B8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.113.cpp",
+      "line": 6922,
+      "function": "0x823CF9B8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.113.cpp",
+      "line": 14789,
+      "function": "0x82651780",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.114.cpp",
+      "line": 4073,
+      "function": "0x822D5A28",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.114.cpp",
+      "line": 23702,
+      "function": "0x82AEEBF0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.114.cpp",
+      "line": 23787,
+      "function": "0x82AEEBF0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.115.cpp",
+      "line": 8985,
+      "function": "0x82449E08",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.115.cpp",
+      "line": 9078,
+      "function": "0x82449E08",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.115.cpp",
+      "line": 25576,
+      "function": "0x82A10E28",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.115.cpp",
+      "line": 27741,
+      "function": "0x82AB92A8",
+      "switch_expr": "ctx.r26.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.115.cpp",
+      "line": 28415,
+      "function": "0x82AB92A8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.115.cpp",
+      "line": 28508,
+      "function": "0x82AB92A8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.116.cpp",
+      "line": 7189,
+      "function": "0x824087B8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.116.cpp",
+      "line": 9431,
+      "function": "0x824AF7B0",
+      "switch_expr": "ctx.r3.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.118.cpp",
+      "line": 4281,
+      "function": "0x822D5F78",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.118.cpp",
+      "line": 7280,
+      "function": "0x823CF900",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.118.cpp",
+      "line": 19833,
+      "function": "0x827F25E8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.118.cpp",
+      "line": 27484,
+      "function": "0x82A7F8A8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.119.cpp",
+      "line": 20549,
+      "function": "0x82821890",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.12.cpp",
+      "line": 28492,
+      "function": "0x82B887C0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.120.cpp",
+      "line": 10671,
+      "function": "0x82507428",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.121.cpp",
+      "line": 9258,
+      "function": "0x824780B0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.121.cpp",
+      "line": 19218,
+      "function": "0x8280A6D8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.121.cpp",
+      "line": 20828,
+      "function": "0x82888588",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.122.cpp",
+      "line": 12797,
+      "function": "0x825B01D8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.122.cpp",
+      "line": 12886,
+      "function": "0x825B01D8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.122.cpp",
+      "line": 14738,
+      "function": "0x8265BE50",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.122.cpp",
+      "line": 34794,
+      "function": "0x82CC6CB0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.124.cpp",
+      "line": 5281,
+      "function": "0x822D9FE0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.125.cpp",
+      "line": 7501,
+      "function": "0x82406908",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.125.cpp",
+      "line": 7585,
+      "function": "0x82406908",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.125.cpp",
+      "line": 7669,
+      "function": "0x82406908",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.125.cpp",
+      "line": 19843,
+      "function": "0x8281CF98",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.125.cpp",
+      "line": 19968,
+      "function": "0x8281CF98",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.125.cpp",
+      "line": 26777,
+      "function": "0x82A658E8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.125.cpp",
+      "line": 26862,
+      "function": "0x82A658E8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.125.cpp",
+      "line": 27042,
+      "function": "0x82A658E8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.125.cpp",
+      "line": 27130,
+      "function": "0x82A658E8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.126.cpp",
+      "line": 4098,
+      "function": "0x822D6168",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.126.cpp",
+      "line": 7732,
+      "function": "0x82400590",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.127.cpp",
+      "line": 11474,
+      "function": "0x825A9120",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.127.cpp",
+      "line": 13592,
+      "function": "0x8265BBD0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.127.cpp",
+      "line": 29391,
+      "function": "0x82BAF510",
+      "switch_expr": "ctx.r5.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.127.cpp",
+      "line": 33410,
+      "function": "0x82BAF510",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.127.cpp",
+      "line": 36352,
+      "function": "0x82BAF510",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.128.cpp",
+      "line": 4047,
+      "function": "0x822E2D50",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.128.cpp",
+      "line": 17299,
+      "function": "0x827BAD80",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.128.cpp",
+      "line": 21531,
+      "function": "0x82933200",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.129.cpp",
+      "line": 7539,
+      "function": "0x824063A8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.129.cpp",
+      "line": 7623,
+      "function": "0x824063A8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.129.cpp",
+      "line": 11454,
+      "function": "0x8253C768",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.130.cpp",
+      "line": 14196,
+      "function": "0x82662070",
+      "switch_expr": "ctx.r3.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.131.cpp",
+      "line": 16555,
+      "function": "0x82719D68",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.131.cpp",
+      "line": 26314,
+      "function": "0x82A98660",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.131.cpp",
+      "line": 26395,
+      "function": "0x82A98660",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.131.cpp",
+      "line": 26493,
+      "function": "0x82A98660",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.131.cpp",
+      "line": 26574,
+      "function": "0x82A98660",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.132.cpp",
+      "line": 7505,
+      "function": "0x824072E8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.132.cpp",
+      "line": 7589,
+      "function": "0x824072E8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.132.cpp",
+      "line": 7673,
+      "function": "0x824072E8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.133.cpp",
+      "line": 26182,
+      "function": "0x82ABD8F8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.133.cpp",
+      "line": 26261,
+      "function": "0x82ABD8F8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.135.cpp",
+      "line": 4271,
+      "function": "0x822D66C8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.135.cpp",
+      "line": 4315,
+      "function": "0x822D66C8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.135.cpp",
+      "line": 4461,
+      "function": "0x822D66C8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.135.cpp",
+      "line": 4533,
+      "function": "0x822D66C8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.136.cpp",
+      "line": 8719,
+      "function": "0x82474680",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.136.cpp",
+      "line": 10842,
+      "function": "0x82508600",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.136.cpp",
+      "line": 12108,
+      "function": "0x82579390",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.136.cpp",
+      "line": 14667,
+      "function": "0x8266B508",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.136.cpp",
+      "line": 27933,
+      "function": "0x82AD2ED0",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.136.cpp",
+      "line": 27986,
+      "function": "0x82AD2ED0",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.136.cpp",
+      "line": 28060,
+      "function": "0x82AD2ED0",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.136.cpp",
+      "line": 28134,
+      "function": "0x82AD2ED0",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.136.cpp",
+      "line": 28391,
+      "function": "0x82AD2ED0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.136.cpp",
+      "line": 28472,
+      "function": "0x82AD2ED0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.136.cpp",
+      "line": 28623,
+      "function": "0x82AD2ED0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.136.cpp",
+      "line": 28704,
+      "function": "0x82AD2ED0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.136.cpp",
+      "line": 28816,
+      "function": "0x82AD2ED0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.136.cpp",
+      "line": 28897,
+      "function": "0x82AD2ED0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.137.cpp",
+      "line": 16939,
+      "function": "0x827270C8",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.137.cpp",
+      "line": 32761,
+      "function": "0x82CC9F80",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.138.cpp",
+      "line": 8810,
+      "function": "0x8248AA00",
+      "switch_expr": "ctx.r4.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.138.cpp",
+      "line": 26299,
+      "function": "0x82A4A5C0",
+      "switch_expr": "ctx.r3.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.139.cpp",
+      "line": 4132,
+      "function": "0x822D99F0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.139.cpp",
+      "line": 14457,
+      "function": "0x8268FC40",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.139.cpp",
+      "line": 14514,
+      "function": "0x8268FC40",
+      "switch_expr": "ctx.r29.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.139.cpp",
+      "line": 14624,
+      "function": "0x8268FC40",
+      "switch_expr": "ctx.r29.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.139.cpp",
+      "line": 14766,
+      "function": "0x8268FC40",
+      "switch_expr": "ctx.r29.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.139.cpp",
+      "line": 14823,
+      "function": "0x8268FC40",
+      "switch_expr": "ctx.r29.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.139.cpp",
+      "line": 14876,
+      "function": "0x8268FC40",
+      "switch_expr": "ctx.r29.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.139.cpp",
+      "line": 14980,
+      "function": "0x8268FC40",
+      "switch_expr": "ctx.r29.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.139.cpp",
+      "line": 15053,
+      "function": "0x8268FC40",
+      "switch_expr": "ctx.r29.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.139.cpp",
+      "line": 15096,
+      "function": "0x8268FC40",
+      "switch_expr": "ctx.r29.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.139.cpp",
+      "line": 24487,
+      "function": "0x82A26E40",
+      "switch_expr": "ctx.r3.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.14.cpp",
+      "line": 10530,
+      "function": "0x8251C1A8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.14.cpp",
+      "line": 21979,
+      "function": "0x82916898",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.140.cpp",
+      "line": 10335,
+      "function": "0x82506838",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.140.cpp",
+      "line": 19736,
+      "function": "0x82817E40",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.141.cpp",
+      "line": 3780,
+      "function": "0x822DE3E0",
+      "switch_expr": "ctx.r30.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.141.cpp",
+      "line": 6897,
+      "function": "0x823FE808",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.141.cpp",
+      "line": 9748,
+      "function": "0x824EA550",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.142.cpp",
+      "line": 18502,
+      "function": "0x82738900",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.143.cpp",
+      "line": 7160,
+      "function": "0x823DFFD8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.143.cpp",
+      "line": 19515,
+      "function": "0x8281EF00",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.143.cpp",
+      "line": 21913,
+      "function": "0x828E82C8",
+      "switch_expr": "ctx.r31.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.143.cpp",
+      "line": 27230,
+      "function": "0x82AAF818",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.143.cpp",
+      "line": 27311,
+      "function": "0x82AAF818",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.143.cpp",
+      "line": 27413,
+      "function": "0x82AAF818",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.143.cpp",
+      "line": 27505,
+      "function": "0x82AAF818",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.143.cpp",
+      "line": 34719,
+      "function": "0x82CC0B78",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.144.cpp",
+      "line": 15383,
+      "function": "0x82682BA0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.144.cpp",
+      "line": 18543,
+      "function": "0x827A02A0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.144.cpp",
+      "line": 21606,
+      "function": "0x828BEEA0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.145.cpp",
+      "line": 9642,
+      "function": "0x824FE820",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.145.cpp",
+      "line": 9882,
+      "function": "0x82508018",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.145.cpp",
+      "line": 29607,
+      "function": "0x82B885C0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.146.cpp",
+      "line": 8531,
+      "function": "0x8244A410",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.146.cpp",
+      "line": 16691,
+      "function": "0x827A3FC0",
+      "switch_expr": "ctx.r3.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.146.cpp",
+      "line": 27868,
+      "function": "0x82B3FB88",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.147.cpp",
+      "line": 28333,
+      "function": "0x82AD26C8",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.147.cpp",
+      "line": 28414,
+      "function": "0x82AD26C8",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.148.cpp",
+      "line": 12463,
+      "function": "0x825A2090",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.148.cpp",
+      "line": 12712,
+      "function": "0x825A2090",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.148.cpp",
+      "line": 27912,
+      "function": "0x82AEA438",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.148.cpp",
+      "line": 28141,
+      "function": "0x82AEA438",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.149.cpp",
+      "line": 21051,
+      "function": "0x828E7050",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.15.cpp",
+      "line": 29765,
+      "function": "0x82AF1890",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.15.cpp",
+      "line": 29853,
+      "function": "0x82AF1890",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.151.cpp",
+      "line": 21939,
+      "function": "0x828E8500",
+      "switch_expr": "ctx.r31.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.151.cpp",
+      "line": 22550,
+      "function": "0x82920210",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.151.cpp",
+      "line": 22736,
+      "function": "0x82920210",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.151.cpp",
+      "line": 27979,
+      "function": "0x82AEA8B8",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.151.cpp",
+      "line": 28222,
+      "function": "0x82AEA8B8",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.151.cpp",
+      "line": 28488,
+      "function": "0x82AEA8B8",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.152.cpp",
+      "line": 26982,
+      "function": "0x82AF1650",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.152.cpp",
+      "line": 27067,
+      "function": "0x82AF1650",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.153.cpp",
+      "line": 7410,
+      "function": "0x824070A8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.153.cpp",
+      "line": 7494,
+      "function": "0x824070A8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.153.cpp",
+      "line": 17352,
+      "function": "0x82743FA8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.154.cpp",
+      "line": 5029,
+      "function": "0x8231F1A8",
+      "switch_expr": "ctx.r4.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.154.cpp",
+      "line": 25867,
+      "function": "0x82A37650",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.154.cpp",
+      "line": 27676,
+      "function": "0x82AB6160",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.154.cpp",
+      "line": 27755,
+      "function": "0x82AB6160",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.154.cpp",
+      "line": 27905,
+      "function": "0x82AB6160",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.154.cpp",
+      "line": 27988,
+      "function": "0x82AB6160",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.155.cpp",
+      "line": 20229,
+      "function": "0x8289F268",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.155.cpp",
+      "line": 20383,
+      "function": "0x8289F268",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.156.cpp",
+      "line": 4424,
+      "function": "0x822E0AA0",
+      "switch_expr": "ctx.r4.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.156.cpp",
+      "line": 4472,
+      "function": "0x822E0AA0",
+      "switch_expr": "ctx.r6.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.156.cpp",
+      "line": 4673,
+      "function": "0x822E0AA0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.156.cpp",
+      "line": 4730,
+      "function": "0x822E0AA0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.156.cpp",
+      "line": 13164,
+      "function": "0x825A9018",
+      "switch_expr": "ctx.r3.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.156.cpp",
+      "line": 27227,
+      "function": "0x82A3E400",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.157.cpp",
+      "line": 2973,
+      "function": "0x82244A18",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.157.cpp",
+      "line": 4573,
+      "function": "0x822D83F0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.157.cpp",
+      "line": 11331,
+      "function": "0x8253D500",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.157.cpp",
+      "line": 15638,
+      "function": "0x826B82D8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.157.cpp",
+      "line": 25099,
+      "function": "0x82A48430",
+      "switch_expr": "ctx.r5.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.158.cpp",
+      "line": 15139,
+      "function": "0x826B89A0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.158.cpp",
+      "line": 20370,
+      "function": "0x828E8AF8",
+      "switch_expr": "ctx.r4.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.159.cpp",
+      "line": 6813,
+      "function": "0x82408AD0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.159.cpp",
+      "line": 6886,
+      "function": "0x82408AD0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.159.cpp",
+      "line": 6959,
+      "function": "0x82408AD0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.159.cpp",
+      "line": 11782,
+      "function": "0x825798D8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.159.cpp",
+      "line": 24968,
+      "function": "0x829E3C28",
+      "switch_expr": "ctx.r3.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.16.cpp",
+      "line": 6512,
+      "function": "0x824086A0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.16.cpp",
+      "line": 20708,
+      "function": "0x828E9008",
+      "switch_expr": "ctx.r3.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.16.cpp",
+      "line": 21366,
+      "function": "0x82911200",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.160.cpp",
+      "line": 7050,
+      "function": "0x823CF790",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.161.cpp",
+      "line": 16131,
+      "function": "0x826E97D8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.161.cpp",
+      "line": 26898,
+      "function": "0x82A8B180",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.161.cpp",
+      "line": 26977,
+      "function": "0x82A8B180",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.161.cpp",
+      "line": 27071,
+      "function": "0x82A8B180",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.161.cpp",
+      "line": 27150,
+      "function": "0x82A8B180",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.161.cpp",
+      "line": 27244,
+      "function": "0x82A8B180",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.161.cpp",
+      "line": 27336,
+      "function": "0x82A8B180",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.161.cpp",
+      "line": 30298,
+      "function": "0x82B91F20",
+      "switch_expr": "ctx.r29.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.162.cpp",
+      "line": 11071,
+      "function": "0x82502330",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.162.cpp",
+      "line": 18724,
+      "function": "0x8279E220",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.162.cpp",
+      "line": 26800,
+      "function": "0x82A1D268",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.163.cpp",
+      "line": 3998,
+      "function": "0x822DDAD8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.164.cpp",
+      "line": 13580,
+      "function": "0x82640958",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.165.cpp",
+      "line": 18790,
+      "function": "0x82840148",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.165.cpp",
+      "line": 22408,
+      "function": "0x82999E00",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.166.cpp",
+      "line": 22856,
+      "function": "0x828FBC78",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.167.cpp",
+      "line": 9082,
+      "function": "0x82492980",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.168.cpp",
+      "line": 9685,
+      "function": "0x8247BF38",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.17.cpp",
+      "line": 6922,
+      "function": "0x82414518",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.170.cpp",
+      "line": 8808,
+      "function": "0x8245E088",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.170.cpp",
+      "line": 18684,
+      "function": "0x827DC0A8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.171.cpp",
+      "line": 17236,
+      "function": "0x827A3D98",
+      "switch_expr": "ctx.r3.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.173.cpp",
+      "line": 2994,
+      "function": "0x8228E2F8",
+      "switch_expr": "ctx.r31.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.173.cpp",
+      "line": 7335,
+      "function": "0x82408C68",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.173.cpp",
+      "line": 22699,
+      "function": "0x829330A8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.174.cpp",
+      "line": 10982,
+      "function": "0x8251BE38",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.175.cpp",
+      "line": 3673,
+      "function": "0x822DD1E0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.175.cpp",
+      "line": 20922,
+      "function": "0x828A71B8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.176.cpp",
+      "line": 18324,
+      "function": "0x827A3550",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.176.cpp",
+      "line": 28346,
+      "function": "0x82AD4EA0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.176.cpp",
+      "line": 28438,
+      "function": "0x82AD4EA0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.177.cpp",
+      "line": 4090,
+      "function": "0x822D56F0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.177.cpp",
+      "line": 17335,
+      "function": "0x82728B48",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.177.cpp",
+      "line": 27247,
+      "function": "0x82A9B320",
+      "switch_expr": "ctx.r4.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.178.cpp",
+      "line": 9871,
+      "function": "0x824AF8F0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.178.cpp",
+      "line": 11197,
+      "function": "0x825089C8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.179.cpp",
+      "line": 21175,
+      "function": "0x828A0040",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.179.cpp",
+      "line": 24459,
+      "function": "0x828A0040",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.18.cpp",
+      "line": 26863,
+      "function": "0x82A3E4E0",
+      "switch_expr": "ctx.r3.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.18.cpp",
+      "line": 29493,
+      "function": "0x82A711A8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.18.cpp",
+      "line": 29580,
+      "function": "0x82A711A8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.18.cpp",
+      "line": 29894,
+      "function": "0x82A711A8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.18.cpp",
+      "line": 29981,
+      "function": "0x82A711A8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.18.cpp",
+      "line": 30950,
+      "function": "0x82A711A8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.18.cpp",
+      "line": 31031,
+      "function": "0x82A711A8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.18.cpp",
+      "line": 32512,
+      "function": "0x82A711A8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.18.cpp",
+      "line": 32593,
+      "function": "0x82A711A8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.18.cpp",
+      "line": 33135,
+      "function": "0x82A711A8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.18.cpp",
+      "line": 33216,
+      "function": "0x82A711A8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.18.cpp",
+      "line": 33388,
+      "function": "0x82A711A8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.18.cpp",
+      "line": 33467,
+      "function": "0x82A711A8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.18.cpp",
+      "line": 34596,
+      "function": "0x82A711A8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.18.cpp",
+      "line": 34675,
+      "function": "0x82A711A8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.180.cpp",
+      "line": 21029,
+      "function": "0x82898320",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.180.cpp",
+      "line": 27827,
+      "function": "0x82AC4110",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.180.cpp",
+      "line": 27906,
+      "function": "0x82AC4110",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.181.cpp",
+      "line": 3122,
+      "function": "0x822D4E28",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.181.cpp",
+      "line": 16146,
+      "function": "0x82743918",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.181.cpp",
+      "line": 19502,
+      "function": "0x82843B48",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.181.cpp",
+      "line": 20541,
+      "function": "0x828B4290",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.182.cpp",
+      "line": 20009,
+      "function": "0x82823B78",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.182.cpp",
+      "line": 27314,
+      "function": "0x82A972F8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.182.cpp",
+      "line": 27399,
+      "function": "0x82A972F8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.182.cpp",
+      "line": 27544,
+      "function": "0x82A972F8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.182.cpp",
+      "line": 27629,
+      "function": "0x82A972F8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.183.cpp",
+      "line": 4054,
+      "function": "0x822D7C00",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.185.cpp",
+      "line": 9817,
+      "function": "0x824A1958",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.185.cpp",
+      "line": 27911,
+      "function": "0x82A6BB80",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.186.cpp",
+      "line": 3806,
+      "function": "0x822EA9B0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.186.cpp",
+      "line": 18057,
+      "function": "0x827E0BD8",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.186.cpp",
+      "line": 26501,
+      "function": "0x82AB5138",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.186.cpp",
+      "line": 26593,
+      "function": "0x82AB5138",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.186.cpp",
+      "line": 27072,
+      "function": "0x82AB5138",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.186.cpp",
+      "line": 27164,
+      "function": "0x82AB5138",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.187.cpp",
+      "line": 8114,
+      "function": "0x823FD990",
+      "switch_expr": "ctx.r3.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.188.cpp",
+      "line": 32057,
+      "function": "0x82CB1E40",
+      "switch_expr": "ctx.r19.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.189.cpp",
+      "line": 10815,
+      "function": "0x82508CE0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.189.cpp",
+      "line": 25600,
+      "function": "0x82A0CF18",
+      "switch_expr": "ctx.r19.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.189.cpp",
+      "line": 32610,
+      "function": "0x82CC1F88",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.19.cpp",
+      "line": 3832,
+      "function": "0x822DC998",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.19.cpp",
+      "line": 17064,
+      "function": "0x827AD678",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.19.cpp",
+      "line": 18312,
+      "function": "0x827FAEE0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.19.cpp",
+      "line": 26304,
+      "function": "0x82AEAE58",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.19.cpp",
+      "line": 26533,
+      "function": "0x82AEAE58",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.190.cpp",
+      "line": 3629,
+      "function": "0x822DACD0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.190.cpp",
+      "line": 21273,
+      "function": "0x828E8F80",
+      "switch_expr": "ctx.r3.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.191.cpp",
+      "line": 26100,
+      "function": "0x82AAFE48",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.191.cpp",
+      "line": 26181,
+      "function": "0x82AAFE48",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.191.cpp",
+      "line": 26524,
+      "function": "0x82AEA070",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.191.cpp",
+      "line": 26764,
+      "function": "0x82AEA070",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.192.cpp",
+      "line": 3714,
+      "function": "0x822D9530",
+      "switch_expr": "ctx.r7.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.192.cpp",
+      "line": 4355,
+      "function": "0x82319F10",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.192.cpp",
+      "line": 18633,
+      "function": "0x8281F188",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.192.cpp",
+      "line": 25922,
+      "function": "0x82A9B0A8",
+      "switch_expr": "ctx.r4.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.193.cpp",
+      "line": 3673,
+      "function": "0x822D5D98",
+      "switch_expr": "ctx.r4.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.193.cpp",
+      "line": 18074,
+      "function": "0x82757A08",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.193.cpp",
+      "line": 22816,
+      "function": "0x82932F38",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.193.cpp",
+      "line": 23562,
+      "function": "0x82965230",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.193.cpp",
+      "line": 26721,
+      "function": "0x82ABD2C0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.193.cpp",
+      "line": 26800,
+      "function": "0x82ABD2C0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.193.cpp",
+      "line": 30580,
+      "function": "0x82BCCD80",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.194.cpp",
+      "line": 6993,
+      "function": "0x823B0EC8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.194.cpp",
+      "line": 9239,
+      "function": "0x8246FDB0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.196.cpp",
+      "line": 3780,
+      "function": "0x822D8000",
+      "switch_expr": "ctx.r6.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.196.cpp",
+      "line": 16223,
+      "function": "0x82703460",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.196.cpp",
+      "line": 18688,
+      "function": "0x827C2BF8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.197.cpp",
+      "line": 10831,
+      "function": "0x82503BC8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.198.cpp",
+      "line": 4225,
+      "function": "0x822D4C48",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.198.cpp",
+      "line": 5316,
+      "function": "0x822E2128",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.198.cpp",
+      "line": 16032,
+      "function": "0x826DBE50",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.198.cpp",
+      "line": 22805,
+      "function": "0x82909680",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.198.cpp",
+      "line": 24493,
+      "function": "0x8298C448",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.198.cpp",
+      "line": 30527,
+      "function": "0x82B89558",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.2.cpp",
+      "line": 27388,
+      "function": "0x82A991B0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.2.cpp",
+      "line": 27481,
+      "function": "0x82A991B0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.20.cpp",
+      "line": 6722,
+      "function": "0x823CF6F8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.200.cpp",
+      "line": 26175,
+      "function": "0x82A96EA0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.200.cpp",
+      "line": 26876,
+      "function": "0x82AD66F8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.200.cpp",
+      "line": 26957,
+      "function": "0x82AD66F8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.200.cpp",
+      "line": 27227,
+      "function": "0x82AD66F8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.200.cpp",
+      "line": 27308,
+      "function": "0x82AD66F8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.200.cpp",
+      "line": 30755,
+      "function": "0x82C218E8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.201.cpp",
+      "line": 26869,
+      "function": "0x82ABE4B0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.201.cpp",
+      "line": 26956,
+      "function": "0x82ABE4B0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.201.cpp",
+      "line": 27041,
+      "function": "0x82ABE4B0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.201.cpp",
+      "line": 34024,
+      "function": "0x82CC2A70",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.202.cpp",
+      "line": 3947,
+      "function": "0x822D78A8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.202.cpp",
+      "line": 17547,
+      "function": "0x827346E8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.203.cpp",
+      "line": 19258,
+      "function": "0x827995C8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.203.cpp",
+      "line": 22796,
+      "function": "0x8291DA50",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.204.cpp",
+      "line": 4122,
+      "function": "0x822D5870",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.206.cpp",
+      "line": 4941,
+      "function": "0x8231F378",
+      "switch_expr": "ctx.r4.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.206.cpp",
+      "line": 26483,
+      "function": "0x82A07C68",
+      "switch_expr": "ctx.r8.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.21.cpp",
+      "line": 4282,
+      "function": "0x822D7240",
+      "switch_expr": "ctx.r30.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.21.cpp",
+      "line": 24438,
+      "function": "0x828FF8C8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.22.cpp",
+      "line": 19976,
+      "function": "0x8281F250",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.23.cpp",
+      "line": 7173,
+      "function": "0x823E0360",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.23.cpp",
+      "line": 15687,
+      "function": "0x82665EE8",
+      "switch_expr": "ctx.r29.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.23.cpp",
+      "line": 21129,
+      "function": "0x82818678",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.23.cpp",
+      "line": 22844,
+      "function": "0x82878670",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.23.cpp",
+      "line": 25069,
+      "function": "0x82878670",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.24.cpp",
+      "line": 5106,
+      "function": "0x8231E480",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.25.cpp",
+      "line": 3979,
+      "function": "0x822DB9A8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.25.cpp",
+      "line": 26084,
+      "function": "0x82A96F90",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.25.cpp",
+      "line": 26174,
+      "function": "0x82A96F90",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.26.cpp",
+      "line": 4161,
+      "function": "0x822D4F68",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.26.cpp",
+      "line": 9544,
+      "function": "0x8246DFB0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.27.cpp",
+      "line": 11867,
+      "function": "0x825A93C0",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.28.cpp",
+      "line": 22680,
+      "function": "0x82929458",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.29.cpp",
+      "line": 10505,
+      "function": "0x82517AA8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.29.cpp",
+      "line": 28243,
+      "function": "0x82AC5788",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.29.cpp",
+      "line": 28338,
+      "function": "0x82AC5788",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.3.cpp",
+      "line": 21058,
+      "function": "0x828FC0F8",
+      "switch_expr": "ctx.r4.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.3.cpp",
+      "line": 21185,
+      "function": "0x828FC0F8",
+      "switch_expr": "ctx.r4.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.3.cpp",
+      "line": 26188,
+      "function": "0x82AD2CE8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.3.cpp",
+      "line": 26269,
+      "function": "0x82AD2CE8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.30.cpp",
+      "line": 26152,
+      "function": "0x82AB47F8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.30.cpp",
+      "line": 26260,
+      "function": "0x82AB47F8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.30.cpp",
+      "line": 26358,
+      "function": "0x82AB47F8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.30.cpp",
+      "line": 26457,
+      "function": "0x82AB47F8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.31.cpp",
+      "line": 4031,
+      "function": "0x822E5C60",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.31.cpp",
+      "line": 6794,
+      "function": "0x823E01B8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.31.cpp",
+      "line": 16725,
+      "function": "0x82755918",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.31.cpp",
+      "line": 20973,
+      "function": "0x828BD308",
+      "switch_expr": "ctx.r29.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.34.cpp",
+      "line": 17819,
+      "function": "0x82724DE0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.34.cpp",
+      "line": 24414,
+      "function": "0x8294EA50",
+      "switch_expr": "ctx.r29.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.34.cpp",
+      "line": 28003,
+      "function": "0x82A7F5F8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.34.cpp",
+      "line": 32121,
+      "function": "0x82BFD198",
+      "switch_expr": "ctx.r4.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.34.cpp",
+      "line": 35103,
+      "function": "0x82CCA7F8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.35.cpp",
+      "line": 3897,
+      "function": "0x822E8668",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.35.cpp",
+      "line": 11596,
+      "function": "0x82599680",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.35.cpp",
+      "line": 22555,
+      "function": "0x8291E808",
+      "switch_expr": "ctx.r24.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.35.cpp",
+      "line": 22692,
+      "function": "0x8291E808",
+      "switch_expr": "ctx.r24.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.36.cpp",
+      "line": 10645,
+      "function": "0x82517DB0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.36.cpp",
+      "line": 14293,
+      "function": "0x8265B940",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.37.cpp",
+      "line": 26525,
+      "function": "0x82AC5CA8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.37.cpp",
+      "line": 26612,
+      "function": "0x82AC5CA8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.38.cpp",
+      "line": 12682,
+      "function": "0x825E08F0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.38.cpp",
+      "line": 13927,
+      "function": "0x825E08F0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.39.cpp",
+      "line": 3791,
+      "function": "0x822D6C68",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.39.cpp",
+      "line": 7285,
+      "function": "0x82406850",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.4.cpp",
+      "line": 3778,
+      "function": "0x822D6F40",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.4.cpp",
+      "line": 15533,
+      "function": "0x826C47C0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.4.cpp",
+      "line": 15644,
+      "function": "0x826C47C0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.4.cpp",
+      "line": 19990,
+      "function": "0x8283E280",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.4.cpp",
+      "line": 21153,
+      "function": "0x8288E1D0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.40.cpp",
+      "line": 3836,
+      "function": "0x822E1520",
+      "switch_expr": "ctx.r6.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.40.cpp",
+      "line": 9375,
+      "function": "0x82515F58",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.40.cpp",
+      "line": 11060,
+      "function": "0x825ACBA0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.40.cpp",
+      "line": 12478,
+      "function": "0x82620E48",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.40.cpp",
+      "line": 17099,
+      "function": "0x827C2A08",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.40.cpp",
+      "line": 22277,
+      "function": "0x829668C0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.40.cpp",
+      "line": 25620,
+      "function": "0x82A654A8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.40.cpp",
+      "line": 25705,
+      "function": "0x82A654A8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.40.cpp",
+      "line": 25844,
+      "function": "0x82A654A8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.40.cpp",
+      "line": 25929,
+      "function": "0x82A654A8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.41.cpp",
+      "line": 4241,
+      "function": "0x822E00B0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.41.cpp",
+      "line": 5134,
+      "function": "0x822E00B0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.41.cpp",
+      "line": 5449,
+      "function": "0x822E00B0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.42.cpp",
+      "line": 9662,
+      "function": "0x824E8080",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.42.cpp",
+      "line": 15033,
+      "function": "0x826BB4B0",
+      "switch_expr": "ctx.r16.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.42.cpp",
+      "line": 27608,
+      "function": "0x82AEF018",
+      "switch_expr": "ctx.r6.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.42.cpp",
+      "line": 27696,
+      "function": "0x82AEF018",
+      "switch_expr": "ctx.r6.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.43.cpp",
+      "line": 19210,
+      "function": "0x8283E6E8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.43.cpp",
+      "line": 22730,
+      "function": "0x82949A90",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.45.cpp",
+      "line": 4092,
+      "function": "0x822D5BE0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.45.cpp",
+      "line": 26575,
+      "function": "0x82A66620",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.45.cpp",
+      "line": 26662,
+      "function": "0x82A66620",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.45.cpp",
+      "line": 26943,
+      "function": "0x82A66620",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.45.cpp",
+      "line": 27024,
+      "function": "0x82A66620",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.45.cpp",
+      "line": 29399,
+      "function": "0x82B6EE20",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.46.cpp",
+      "line": 27839,
+      "function": "0x82ABF200",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.46.cpp",
+      "line": 27924,
+      "function": "0x82ABF200",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.46.cpp",
+      "line": 28009,
+      "function": "0x82ABF200",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.46.cpp",
+      "line": 28272,
+      "function": "0x82AEF7F8",
+      "switch_expr": "ctx.r8.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.46.cpp",
+      "line": 28372,
+      "function": "0x82AEF7F8",
+      "switch_expr": "ctx.r8.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.46.cpp",
+      "line": 28454,
+      "function": "0x82AEF7F8",
+      "switch_expr": "ctx.r8.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.46.cpp",
+      "line": 28548,
+      "function": "0x82AEF7F8",
+      "switch_expr": "ctx.r8.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.46.cpp",
+      "line": 28646,
+      "function": "0x82AEF7F8",
+      "switch_expr": "ctx.r8.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.46.cpp",
+      "line": 28725,
+      "function": "0x82AEF7F8",
+      "switch_expr": "ctx.r8.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.47.cpp",
+      "line": 9196,
+      "function": "0x82507AD8",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.47.cpp",
+      "line": 10981,
+      "function": "0x825A8F10",
+      "switch_expr": "ctx.r3.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.47.cpp",
+      "line": 25789,
+      "function": "0x82AF01D8",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.47.cpp",
+      "line": 25889,
+      "function": "0x82AF01D8",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.47.cpp",
+      "line": 25971,
+      "function": "0x82AF01D8",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.47.cpp",
+      "line": 26065,
+      "function": "0x82AF01D8",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.47.cpp",
+      "line": 31367,
+      "function": "0x82C8C448",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.48.cpp",
+      "line": 4515,
+      "function": "0x822D90A8",
+      "switch_expr": "ctx.r4.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.48.cpp",
+      "line": 12957,
+      "function": "0x825C4938",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.48.cpp",
+      "line": 24018,
+      "function": "0x828AB1E8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.49.cpp",
+      "line": 15686,
+      "function": "0x826BC2F0",
+      "switch_expr": "ctx.r21.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.49.cpp",
+      "line": 19950,
+      "function": "0x8281CA10",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.5.cpp",
+      "line": 20920,
+      "function": "0x8283EC38",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.5.cpp",
+      "line": 21094,
+      "function": "0x8283EC38",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.5.cpp",
+      "line": 21421,
+      "function": "0x8283EC38",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.50.cpp",
+      "line": 10166,
+      "function": "0x82507C88",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.51.cpp",
+      "line": 7172,
+      "function": "0x823CF848",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.51.cpp",
+      "line": 26636,
+      "function": "0x82A8B7A0",
+      "switch_expr": "ctx.r6.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.51.cpp",
+      "line": 26736,
+      "function": "0x82A8B7A0",
+      "switch_expr": "ctx.r6.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.51.cpp",
+      "line": 26910,
+      "function": "0x82A8B7A0",
+      "switch_expr": "ctx.r6.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.51.cpp",
+      "line": 26989,
+      "function": "0x82A8B7A0",
+      "switch_expr": "ctx.r6.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.51.cpp",
+      "line": 27079,
+      "function": "0x82A8B7A0",
+      "switch_expr": "ctx.r6.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.51.cpp",
+      "line": 27158,
+      "function": "0x82A8B7A0",
+      "switch_expr": "ctx.r6.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.53.cpp",
+      "line": 4014,
+      "function": "0x822D5428",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.53.cpp",
+      "line": 28969,
+      "function": "0x82B40188",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.54.cpp",
+      "line": 12076,
+      "function": "0x825BD588",
+      "switch_expr": "ctx.r4.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.54.cpp",
+      "line": 27330,
+      "function": "0x82A93880",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.54.cpp",
+      "line": 27422,
+      "function": "0x82A93880",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.54.cpp",
+      "line": 28597,
+      "function": "0x82AC3628",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.54.cpp",
+      "line": 28676,
+      "function": "0x82AC3628",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.55.cpp",
+      "line": 3543,
+      "function": "0x822D4D58",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.55.cpp",
+      "line": 9946,
+      "function": "0x824CF1E0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.55.cpp",
+      "line": 18507,
+      "function": "0x827BB5F8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.56.cpp",
+      "line": 21317,
+      "function": "0x82840558",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.56.cpp",
+      "line": 28301,
+      "function": "0x82A8BFD0",
+      "switch_expr": "ctx.r23.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.56.cpp",
+      "line": 28401,
+      "function": "0x82A8BFD0",
+      "switch_expr": "ctx.r23.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.57.cpp",
+      "line": 7153,
+      "function": "0x823F8190",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.57.cpp",
+      "line": 8503,
+      "function": "0x8246FB50",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.58.cpp",
+      "line": 15689,
+      "function": "0x8271BAB0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.58.cpp",
+      "line": 21685,
+      "function": "0x8291F188",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.58.cpp",
+      "line": 21816,
+      "function": "0x8291F188",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.59.cpp",
+      "line": 4521,
+      "function": "0x82321158",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.59.cpp",
+      "line": 13532,
+      "function": "0x825E19B8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.6.cpp",
+      "line": 714,
+      "function": "0x821A2548",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.6.cpp",
+      "line": 11311,
+      "function": "0x82548888",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.60.cpp",
+      "line": 28588,
+      "function": "0x82A37A60",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.61.cpp",
+      "line": 12156,
+      "function": "0x82578F48",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.61.cpp",
+      "line": 17949,
+      "function": "0x827602F8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.62.cpp",
+      "line": 1069,
+      "function": "0x821A6198",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.62.cpp",
+      "line": 4159,
+      "function": "0x822D8810",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.63.cpp",
+      "line": 4171,
+      "function": "0x822D51A8",
+      "switch_expr": "ctx.r3.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.63.cpp",
+      "line": 11856,
+      "function": "0x825795D0",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.63.cpp",
+      "line": 33747,
+      "function": "0x82C71EF8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.64.cpp",
+      "line": 4078,
+      "function": "0x822D5080",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.64.cpp",
+      "line": 4889,
+      "function": "0x82319A10",
+      "switch_expr": "ctx.r3.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.64.cpp",
+      "line": 27517,
+      "function": "0x82A994E0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.64.cpp",
+      "line": 27697,
+      "function": "0x82A994E0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.64.cpp",
+      "line": 27919,
+      "function": "0x82A994E0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.64.cpp",
+      "line": 28000,
+      "function": "0x82A994E0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.65.cpp",
+      "line": 17482,
+      "function": "0x82743D68",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.65.cpp",
+      "line": 18939,
+      "function": "0x827C7378",
+      "switch_expr": "ctx.r4.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.65.cpp",
+      "line": 28063,
+      "function": "0x82AC0028",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.65.cpp",
+      "line": 28231,
+      "function": "0x82AC0028",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.65.cpp",
+      "line": 28310,
+      "function": "0x82AC0028",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.65.cpp",
+      "line": 28417,
+      "function": "0x82AC0028",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.65.cpp",
+      "line": 28535,
+      "function": "0x82AC0028",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.68.cpp",
+      "line": 9878,
+      "function": "0x824D8240",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.68.cpp",
+      "line": 18403,
+      "function": "0x827A40E0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.69.cpp",
+      "line": 17803,
+      "function": "0x827A6238",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.69.cpp",
+      "line": 28263,
+      "function": "0x82ABAC68",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.69.cpp",
+      "line": 28751,
+      "function": "0x82ABAC68",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.7.cpp",
+      "line": 13001,
+      "function": "0x825C2C30",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.70.cpp",
+      "line": 3981,
+      "function": "0x822DECF8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.70.cpp",
+      "line": 4170,
+      "function": "0x822DECF8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.70.cpp",
+      "line": 27883,
+      "function": "0x82ABA2E0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.70.cpp",
+      "line": 27962,
+      "function": "0x82ABA2E0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.70.cpp",
+      "line": 28234,
+      "function": "0x82ABA2E0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.70.cpp",
+      "line": 28317,
+      "function": "0x82ABA2E0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.70.cpp",
+      "line": 28932,
+      "function": "0x82B1E158",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.72.cpp",
+      "line": 10839,
+      "function": "0x82508410",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.72.cpp",
+      "line": 24043,
+      "function": "0x82A0F7D8",
+      "switch_expr": "ctx.r20.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.73.cpp",
+      "line": 4211,
+      "function": "0x822E3C48",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.73.cpp",
+      "line": 7801,
+      "function": "0x82408868",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.73.cpp",
+      "line": 12599,
+      "function": "0x825ACA48",
+      "switch_expr": "ctx.r4.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.73.cpp",
+      "line": 20373,
+      "function": "0x8283A308",
+      "switch_expr": "ctx.r4.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.74.cpp",
+      "line": 17239,
+      "function": "0x82702B68",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.74.cpp",
+      "line": 17646,
+      "function": "0x827191E8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.75.cpp",
+      "line": 26873,
+      "function": "0x82A97BE8",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.75.cpp",
+      "line": 26954,
+      "function": "0x82A97BE8",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.75.cpp",
+      "line": 27052,
+      "function": "0x82A97BE8",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.75.cpp",
+      "line": 27133,
+      "function": "0x82A97BE8",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.75.cpp",
+      "line": 27378,
+      "function": "0x82A97BE8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.75.cpp",
+      "line": 27457,
+      "function": "0x82A97BE8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.75.cpp",
+      "line": 27766,
+      "function": "0x82A97BE8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.75.cpp",
+      "line": 28188,
+      "function": "0x82A97BE8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.76.cpp",
+      "line": 19096,
+      "function": "0x827C2840",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.76.cpp",
+      "line": 23410,
+      "function": "0x829204C0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.76.cpp",
+      "line": 23598,
+      "function": "0x829204C0",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.76.cpp",
+      "line": 23787,
+      "function": "0x829204C0",
+      "switch_expr": "ctx.r6.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.77.cpp",
+      "line": 4349,
+      "function": "0x822D18E0",
+      "switch_expr": "ctx.r26.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.78.cpp",
+      "line": 4195,
+      "function": "0x822DB3B8",
+      "switch_expr": "ctx.r8.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.78.cpp",
+      "line": 20160,
+      "function": "0x828182F8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.8.cpp",
+      "line": 4810,
+      "function": "0x82304900",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.8.cpp",
+      "line": 11405,
+      "function": "0x82507E28",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.80.cpp",
+      "line": 19018,
+      "function": "0x82819108",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.80.cpp",
+      "line": 22443,
+      "function": "0x82905540",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.80.cpp",
+      "line": 26117,
+      "function": "0x82A8A720",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.81.cpp",
+      "line": 4127,
+      "function": "0x822D4CC0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.81.cpp",
+      "line": 7381,
+      "function": "0x823CFA50",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.82.cpp",
+      "line": 22343,
+      "function": "0x8291CF30",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.84.cpp",
+      "line": 27311,
+      "function": "0x82B6A438",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.85.cpp",
+      "line": 9709,
+      "function": "0x8248E0A8",
+      "switch_expr": "ctx.r29.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.85.cpp",
+      "line": 32089,
+      "function": "0x82C21EE8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.86.cpp",
+      "line": 3277,
+      "function": "0x822E6ED0",
+      "switch_expr": "ctx.r3.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.86.cpp",
+      "line": 24766,
+      "function": "0x82A5A020",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.87.cpp",
+      "line": 3549,
+      "function": "0x822DA610",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.87.cpp",
+      "line": 4318,
+      "function": "0x822DA610",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.87.cpp",
+      "line": 9924,
+      "function": "0x824E8AE8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.87.cpp",
+      "line": 26560,
+      "function": "0x82A99990",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.87.cpp",
+      "line": 26645,
+      "function": "0x82A99990",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.88.cpp",
+      "line": 13116,
+      "function": "0x825A3CE0",
+      "switch_expr": "ctx.r3.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.88.cpp",
+      "line": 19707,
+      "function": "0x827D5130",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.89.cpp",
+      "line": 11897,
+      "function": "0x825E1568",
+      "switch_expr": "ctx.r4.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.89.cpp",
+      "line": 14728,
+      "function": "0x826BE190",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.89.cpp",
+      "line": 17440,
+      "function": "0x827E37A0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.9.cpp",
+      "line": 4361,
+      "function": "0x822DF718",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.90.cpp",
+      "line": 8046,
+      "function": "0x824006C8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.90.cpp",
+      "line": 23308,
+      "function": "0x8291F6C0",
+      "switch_expr": "ctx.r4.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.90.cpp",
+      "line": 23439,
+      "function": "0x8291F6C0",
+      "switch_expr": "ctx.r4.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.91.cpp",
+      "line": 8901,
+      "function": "0x8246DF00",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.91.cpp",
+      "line": 18636,
+      "function": "0x827AD290",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.91.cpp",
+      "line": 27032,
+      "function": "0x82AC15E8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.91.cpp",
+      "line": 27113,
+      "function": "0x82AC15E8",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.91.cpp",
+      "line": 27243,
+      "function": "0x82AC15E8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.92.cpp",
+      "line": 16056,
+      "function": "0x8275D888",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.92.cpp",
+      "line": 21109,
+      "function": "0x8291EFF0",
+      "switch_expr": "ctx.r9.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.93.cpp",
+      "line": 4214,
+      "function": "0x822D52D8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.93.cpp",
+      "line": 17560,
+      "function": "0x82755740",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.93.cpp",
+      "line": 19276,
+      "function": "0x8281E468",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.93.cpp",
+      "line": 26497,
+      "function": "0x82A93B68",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.93.cpp",
+      "line": 26597,
+      "function": "0x82A93B68",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.95.cpp",
+      "line": 34298,
+      "function": "0x82CBF888",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.96.cpp",
+      "line": 23004,
+      "function": "0x8291BCD8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.97.cpp",
+      "line": 4073,
+      "function": "0x822D5588",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.97.cpp",
+      "line": 7816,
+      "function": "0x82407880",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.97.cpp",
+      "line": 7900,
+      "function": "0x82407880",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.97.cpp",
+      "line": 7984,
+      "function": "0x82407880",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.97.cpp",
+      "line": 16621,
+      "function": "0x826EA2C8",
+      "switch_expr": "ctx.r4.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.97.cpp",
+      "line": 27847,
+      "function": "0x82A9A930",
+      "switch_expr": "ctx.r26.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.97.cpp",
+      "line": 27926,
+      "function": "0x82A9A930",
+      "switch_expr": "ctx.r26.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.97.cpp",
+      "line": 28018,
+      "function": "0x82A9A930",
+      "switch_expr": "ctx.r26.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.97.cpp",
+      "line": 28097,
+      "function": "0x82A9A930",
+      "switch_expr": "ctx.r26.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.97.cpp",
+      "line": 28225,
+      "function": "0x82A9A930",
+      "switch_expr": "ctx.r26.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.97.cpp",
+      "line": 28306,
+      "function": "0x82A9A930",
+      "switch_expr": "ctx.r26.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.98.cpp",
+      "line": 7870,
+      "function": "0x824062E0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.98.cpp",
+      "line": 16518,
+      "function": "0x82702CA0",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.98.cpp",
+      "line": 24966,
+      "function": "0x829E9E80",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.98.cpp",
+      "line": 27962,
+      "function": "0x82AD2108",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.98.cpp",
+      "line": 28153,
+      "function": "0x82AD2108",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.98.cpp",
+      "line": 28232,
+      "function": "0x82AD2108",
+      "switch_expr": "ctx.r10.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.98.cpp",
+      "line": 34992,
+      "function": "0x82C887D8",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.99.cpp",
+      "line": 8282,
+      "function": "0x8245DE58",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.99.cpp",
+      "line": 10163,
+      "function": "0x824EF040",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    },
+    {
+      "file": "rottr_recomp.99.cpp",
+      "line": 15308,
+      "function": "0x826BAE28",
+      "switch_expr": "ctx.r11.u32",
+      "covered_cases": []
+    }
+  ]
+}

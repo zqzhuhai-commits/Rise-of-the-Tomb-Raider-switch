@@ -38,6 +38,14 @@ work/
 
 可覆盖变量：`DEVKITPRO`、`ROTTR_SDK_SOURCE`、`ROTTR_DEPS_INCLUDE`、`ROTTR_GUEST_OBJECTS_DIR`、`ROTTR_JOBS`。这些覆盖适用于 shell 构建入口；Mesa 辅助脚本仍依赖上面的目录布局。
 
+### PC 调试环的宿主工具链要求（2026-10-22 实测确认）
+
+SDK 头文件使用 C++23 特性（`std::byteswap`、`std::chrono::clock_time_conversion`），
+**gcc 11 无法编译**（实测报错：`'byteswap' is not a member of 'std'`、
+`'clock_time_conversion' is not a class template`）。官方平台支持同样要求
+**Clang 18+**（Linux amd64）。PC 调试环请使用 Clang 18+ 或 GCC 13+；其余依赖
+（CMake 4.4.4、Ninja、Mesa 主机工具）按上方 NVK 构建环境准备。
+
 ## NVK 构建环境
 
 成功检查点使用隔离提取的 Ubuntu 24.04 包、Clang / LLVM 15.0.7、libLLVMSPIRVLib15、libclc15、flex、bison、pkgconf；SPIRV-Tools `vulkan-sdk-1.3.290.0` 安装到 `native-prefix`；Rust `nightly-2026-09-26`，安装 rust-src、rustfmt 和 aarch64-unknown-linux-gnu 标准库；bindgen-cli 0.73.0、cbindgen 0.29.0。

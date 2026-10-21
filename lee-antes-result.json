@@ -1,0 +1,6 @@
+{
+  "tool": "lee_antes (register read-before-write)",
+  "source": "reference nfsmw-nx tools/lee_antes.py (GPL-3.0)",
+  "total_functions_with_read_before_write": 0,
+  "functions": []
+}

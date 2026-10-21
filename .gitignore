@@ -7,8 +7,7 @@
 /pgo/
 docs/huecos.txt
 tools/huecos_functions.toml
-gap-analysis-result.json
-lee-antes-result.json
+# gap-analysis-result.json 与 lee-antes-result.json 已入库（真实数据记录）
 __pycache__/
 *.pyc
 *.keys

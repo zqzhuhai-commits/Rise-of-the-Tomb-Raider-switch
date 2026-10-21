@@ -1,15 +1,18 @@
 {
   "codegen_tool": "ReXGlue v0.10.0 official Linux AMD64 release",
   "codegen_exit_code": 0,
-  "registered_entries": 45368,
+  "registered_entries": 45104,
   "import_thunks": 264,
-  "cpp_files": 209,
+  "cpp_files": 207,
   "output_file_count_reported": 421,
-  "generated_bytes": 226375016,
+  "generated_bytes": 228206531,
   "trap_markers": {
     "__builtin_trap(); // Switch case out of range": 607
   },
   "runtime_tested": false,
   "switch_compiled": false,
-  "title_update_applied": false
+  "title_update_applied": false,
+  "verified_reproduced": "2026-10-22, ReXGlue v0.10.0 official Linux AMD64",
+  "huecos_validated": 631,
+  "direct_calls_rewritten": 151061
 }
