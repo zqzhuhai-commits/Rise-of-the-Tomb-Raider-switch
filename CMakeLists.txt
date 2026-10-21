@@ -10,10 +10,12 @@ set(ROTTR_GUEST_OBJECTS_DIR "" CACHE PATH "Previously verified ARM64 guest objec
 
 # Switch 最终链接期的优化（默认全关，不改变现有行为）。要启用时 build_guest.sh
 # 与 build_runtime.sh 需传相同值，保证 rottr_guest 对象与应用一致：
-#   ROTTR_LTO=ON  ROTTR_PGO=generar|usar  （见 docs/BUILD.md 与参考移植 nfsmw）
+#   ROTTR_LTO=ON  ROTTR_PGO=generar|usar  ROTTR_ORDEN_FUNCIONES=ON
+#   （见 docs/BUILD.md 与参考移植 nfsmw）
 option(ROTTR_LTO "Link-time optimization for the recompiled game and app (Switch)" OFF)
 set(ROTTR_PGO "" CACHE STRING "Profile-guided optimization (Switch): empty, generar or usar")
 set(ROTTR_PGO_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../pgo" ABSOLUTE CACHE PATH "PGO profile folder")
+option(ROTTR_ORDEN_FUNCIONES "Place hot functions at the start of .text (tools/orden_funciones.ld)" OFF)
 
 # This repository is configured either with the Switch cross toolchain
 # (cmake/switch-devkitA64.cmake, which sets REXGLUE_PLATFORM_SWITCH) or natively
@@ -159,6 +161,15 @@ if(ROTTR_BUILD_RUNTIME)
                     endif()
                 endif()
             endforeach()
+        endif()
+        # 函数排序：把最热的函数集中到 .text 开头（A57 指令缓存仅 48 KB、TLB 小，
+        # 分散的热代码每次远跳都要页表遍历）。注意 .text 首行必须是
+        # KEEP(*(.crt0))，否则 NRO 无法启动（见 tools/orden_funciones.ld 注释）。
+        if(ROTTR_ORDEN_FUNCIONES)
+            target_link_options(rottr PRIVATE
+                "-Wl,--section-ordering-file,${CMAKE_CURRENT_SOURCE_DIR}/tools/orden_funciones.ld")
+            set_property(TARGET rottr APPEND PROPERTY
+                LINK_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/tools/orden_funciones.ld")
         endif()
         rexglue_switch_add_nro(rottr NAME "Rise of the Tomb Raider" AUTHOR "Switch port contributors" VERSION "0.0.1-research")
     else()

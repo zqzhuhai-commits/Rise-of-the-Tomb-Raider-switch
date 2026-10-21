@@ -8,6 +8,7 @@
 docs/huecos.txt
 tools/huecos_functions.toml
 gap-analysis-result.json
+lee-antes-result.json
 __pycache__/
 *.pyc
 *.keys

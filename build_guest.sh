@@ -16,5 +16,6 @@ python3 "$project_dir/tools/direct_calls.py" --sdk "$sdk_dir"
   -DCMAKE_MAKE_PROGRAM="$ninja_exe" -DCMAKE_BUILD_TYPE=Release \
   -DCMAKE_TOOLCHAIN_FILE="$project_dir/cmake/switch-devkitA64.cmake" \
   -DDEVKITPRO="$DEVKITPRO" -DREXSDK_DIR="$sdk_dir" -DREX_DEPS_INCLUDE="$deps_include" \
-  -DROTTR_LTO="${ROTTR_LTO:-OFF}" -DROTTR_PGO="${ROTTR_PGO:-}"
+  -DROTTR_LTO="${ROTTR_LTO:-OFF}" -DROTTR_PGO="${ROTTR_PGO:-}" \
+  -DROTTR_ORDEN_FUNCIONES="${ROTTR_ORDEN_FUNCIONES:-OFF}"
 "$cmake_exe" --build "$project_dir/build/guest-switch" --target rottr_guest -j "${ROTTR_JOBS:-4}"

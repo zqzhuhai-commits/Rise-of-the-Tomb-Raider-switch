@@ -94,5 +94,25 @@ ROTTR_PGO=usar sh build_runtime.sh
 ```
 两个必须的坑（参考项目逐个踩过）：`-fno-profile-values`（libnx 不用 `tpidr_el0`，间接调用插桩启动即崩）与 `-fprofile-correction`（多线程累加计数器为负，GCC 视为损坏 profile）。两次构建必须使用同一份生成代码/源码与同一构建目录路径。
 
+### 寄存器局部化（share_registers，需 SDK 支持）
+```sh
+python3 tools/lee_antes.py     # 检测读先于写的非易失寄存器，输出 lee-antes-result.json
+```
+参考项目把 r14-r31 / cr / ctr / xer 提升为 C++ 局部变量后，主线程约 14% 的
+`__savegprlr_29`/`__restgprlr_29` 耗时消失。前提是 SDK 的 codegen 支持
+`share_registers` 等选项（参考项目给 SDK 打了补丁）；本仓库的 pinned SDK 尚未
+具备时，`lee_antes.py` 先作为分析工具使用，标记候选函数列表留待 SDK 升级后启用。
+
+### 函数排序
+```sh
+ROTTR_ORDEN_FUNCIONES=ON sh build_guest.sh
+ROTTR_ORDEN_FUNCIONES=ON sh build_runtime.sh
+```
+把最热函数集中到 `.text` 开头（A57 指令缓存 48 KB、TLB 小）。清单来自实机堆栈
+采样（参考项目 `tools/calientes.py`），写入 `tools/orden_funciones.ld`；尚未采样
+时该文件只有 `KEEP(*(.crt0))` 一行，开启也等价于不排序。**陷阱**：`.text` 首行
+必须是 `KEEP(*(.crt0))`，否则 `_start` 不在地址 0、NRO 无法启动；每次改动后
+用 `aarch64-none-elf-nm rottr | grep " _start$"` 确认输出 `0000000000000000`。
+
 ### 构建脚本新增覆盖变量
-`ROTTR_LTO`、`ROTTR_PGO`（见上），沿用既有 `ROTTR_*` 覆盖惯例。
+`ROTTR_LTO`、`ROTTR_PGO`、`ROTTR_ORDEN_FUNCIONES`（见上），沿用既有 `ROTTR_*` 覆盖惯例。
