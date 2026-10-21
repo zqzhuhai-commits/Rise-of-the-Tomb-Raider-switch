@@ -1,6 +1,7 @@
-"""Extract the matching base game from the supplied Xbox 360 GOD ZIP.
+"""Extract the matching base game from an Xbox 360 GOD ZIP or Data directory.
 
 Usage: python prepare_game.py gmly.zip --output /path/to/SD/switch/rottr-switch/game
+For an extracted GOD, pass the directory containing Data0000 instead of gmly.zip.
 Only standard Python modules are required. Does not apply title updates or DLC.
 """
 import argparse
@@ -16,11 +17,29 @@ GROUP_BYTES = 204 * 4096
 
 class GodArchive:
     def __init__(self, archive):
-        self.zip = zipfile.ZipFile(archive)
-        parts = sorted(name for name in self.zip.namelist()
-            if '/53510823/00007000/' in name and '.data/Data' in name)
-        if not parts: raise ValueError('Matching Rise of the Tomb Raider GOD data not found')
-        self.prefix = parts[0].rsplit('/', 1)[0]
+        archive = pathlib.Path(archive)
+        self.zip = None
+        self.data_directory = None
+        if archive.is_dir():
+            # Prefer the exact selected Data directory; otherwise find one below it.
+            if (archive / 'Data0000').is_file():
+                candidates = [archive]
+            else:
+                candidates = sorted({p.parent for p in archive.rglob('Data0000') if p.is_file()})
+            if not candidates:
+                raise ValueError('No Data0000 found. Select the folder containing the GOD Data files.')
+            if len(candidates) != 1:
+                raise ValueError('Multiple GOD data folders found. Select the exact folder containing the main game Data0000.')
+            self.data_directory = candidates[0]
+            self.prefix = ''
+        else:
+            self.zip = zipfile.ZipFile(archive)
+            parts = sorted(name for name in self.zip.namelist()
+                if '/53510823/00007000/' in name and '.data/Data' in name)
+            if not parts:
+                self.zip.close()
+                raise ValueError('Matching Rise of the Tomb Raider GOD data not found')
+            self.prefix = parts[0].rsplit('/', 1)[0]
         self.cache_key = None
         self.cache = b''
 
@@ -31,7 +50,13 @@ class GodArchive:
             group, inside = divmod(local, GROUP_BYTES)
             key = self.prefix + '/Data%04d' % part
             if key != self.cache_key:
-                self.cache = self.zip.read(key)  # validates this ZIP entry's CRC
+                if self.data_directory is not None:
+                    part_path = self.data_directory / ('Data%04d' % part)
+                    if not part_path.is_file():
+                        raise FileNotFoundError('Missing GOD data part: ' + str(part_path))
+                    self.cache = part_path.read_bytes()
+                else:
+                    self.cache = self.zip.read(key)  # validates this ZIP entry's CRC
                 self.cache_key = key
             count = min(length, GROUP_BYTES-inside, PART_BYTES-local)
             position = 8192 + group*(GROUP_BYTES+4096) + inside
@@ -77,7 +102,7 @@ class GodArchive:
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('archive', type=pathlib.Path)
+    parser.add_argument('archive', type=pathlib.Path, help='Original GOD ZIP or directory containing Data0000')
     parser.add_argument('--output', required=True, type=pathlib.Path)
     parser.add_argument('--only-default', action='store_true', help='Extract only the executable for verification')
     args = parser.parse_args()

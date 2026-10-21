@@ -9,7 +9,7 @@
 - `nsp/ROTTR-Switch-TEST.nsp`：HOME 菜单入口，标题 ID 为 `01524F5454520000`。
 - `switch/rottr-switch/rottr.nro`：实际程序，必须放在 SD 卡对应位置。
 - `switch/rottr-switch/rottr-switch.toml`：首次测试配置，语言设为简体中文，开启信息日志。
-- `tools/prepare_game.py`（测试包中为 `prepare_game.py`）：从你提供的 Xbox 360 GOD ZIP 中提取匹配的基础游戏资源；需要电脑上的 Python 3，不需要额外 Python 包。
+- `tools/prepare_game.py`（测试包中为 `prepare_game.py`）：从匹配的 Xbox 360 GOD ZIP 或已解压 GOD 数据文件夹中提取匹配的基础游戏资源；需要电脑上的 Python 3，不需要额外 Python 包。
 
 NSP 是入口转发器，不能单独运行游戏。程序和原游戏资源需要同时保留在 SD 卡上。原游戏资源约 6.55 GB，需要自行准备。
 
@@ -29,6 +29,44 @@ NSP 是入口转发器，不能单独运行游戏。程序和原游戏资源需�
 5. 用你常用的安装器安装测试 NSP，再从 HOME 菜单启动。也可以按住 R 打开一款已安装游戏进入完整内存 hbmenu，再启动 `rottr.nro`。
 
 提取脚本会核对 `default.xex` 的 SHA-256，拒绝不匹配的基础版本，并拒绝覆盖已有目标文件。完整资源提取尚未在本轮执行；已验证目录读取及主程序提取与校验。
+
+## 已解压 GOD 文件夹
+
+如果只有 `Data0000`、`Data0001` 等文件，无需重新压缩。使用仓库最新版 `tools/prepare_game.py`，传入直接包含这些文件的文件夹：
+
+```powershell
+python .\tools\prepare_game.py "D:\Games\ROTTR\game.data" --output "E:\switch\rottr-switch\game"
+```
+
+工具也会在输入目录下查找 `Data0000`；如果发现多个 GOD 数据目录，会要求指定唯一主游戏目录。缺失的数据分卷会明确报错。不要将 GOD 分卷改名为 `default.xex`，工具需要解析其中的文件系统。
+
+以上 `E:` 只是示例，请替换为 SD 卡实际盘符。选择尚未提取过的输出目录；脚本拒绝覆盖已有游戏文件。
+
+## Windows 上找不到 Python 命令
+
+先运行：
+
+```powershell
+python --version
+```
+
+如果无法显示 Python 3 版本，可使用 WinGet 安装：
+
+```powershell
+winget install --id Python.Python.3.13 --exact --source winget
+```
+
+安装后关闭并重新打开 PowerShell，再检查版本。若只缺少 `py` 启动器，但 `python --version` 正常，直接将前文命令中的 `py -3` 换为 `python`。
+
+在源码仓库根目录运行 ZIP 提取命令：
+
+```powershell
+python .\tools\prepare_game.py "D:\Games\gmly.zip" --output "E:\switch\rottr-switch\game"
+```
+
+如果使用已解压测试包，脚本在包根目录，命令中的 `.\tools\prepare_game.py` 改为 `.\prepare_game.py`。不需要执行 PowerShell 上传脚本，也不需要修改 PowerShell 执行策略。
+
+目录读取测试覆盖了直接目录、递归查找、跨 GOD 数据组读取、缺失分卷、多目录歧义及 ZIP 兼容性。它们使用合成数据验证读取逻辑；完整游戏资源提取与 Switch 实机运行仍待验证。
 
 ## 首次测试反馈
 
