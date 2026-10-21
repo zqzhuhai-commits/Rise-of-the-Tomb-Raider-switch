@@ -21,11 +21,13 @@
 
 ## 仓库内容
 
-- `src/`、`CMakeLists.txt`、`cmake/`：应用入口与交叉编译配置。
+- `src/`、`CMakeLists.txt`、`cmake/`：应用入口与交叉编译配置。`CMakeLists.txt` 同时支持 Switch 交叉编译（默认）与 **native 宿主（PC）调试环** 两种配置。
 - `tools/`、`build_guest.sh`、`build_runtime.sh`：资源准备、翻译修正、编译与验证工具。
+- `build_pc.sh`：构建并运行 PC 调试环（见下），用 SDK 的 Xenos/Vulkan 在宿主机跑通重编译游戏，作为实机前的调试手段。
 - `dependencies.lock.json`：依赖提交、工具链镜像及补丁哈希。
 - `*-result.json`：各构建阶段留存的检查结果。它们记录历史检查点，未由本仓库 CI 重新执行；早期阶段中的 `switch_compiled: false` 或 `runtime_linked: false` 只描述该阶段。
 - `docs/BUILD.md`：重建步骤及环境限制。
+- `docs/PORTING-GAP-ANALYSIS-zh.md`：与已验证可玩的参考移植（StevensND/nfsmw-nx）逐项对照的差距分析与推进路线图。
 - `TESTING-zh.md`：首次实机验证方法。
 
 游戏资源、原始 XEX、生成的游戏代码、编译对象、NRO / NSP 和控制台密钥不放入本公开仓库。需要从自己的匹配游戏版本在本地准备。仓库当前没有可下载的公开二进制发行版。
@@ -41,6 +43,7 @@
 
 ## 下一阶段
 
+0. **PC 调试环**：`sh build_pc.sh` 在宿主机（x86-64）用 SDK 的 Xenos/Vulkan 跑通重编译游戏。这是参考移植验证过的第 1 步——翻译错误（未覆盖函数、跳转表、分片）在 PC 上远比实机易定位；也会让 607 个越界 switch trap 有明确去处。
 1. 实机验证完整内存启动，收集 `/switch/rottr-switch/logs/` 日志。
 2. 定位首个运行期故障，验证线程、动态调用及 Xenos 渲染。
 3. 验证中文界面、声音、控制与存档，再测试游戏流程和性能。
