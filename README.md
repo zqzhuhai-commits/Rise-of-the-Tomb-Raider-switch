@@ -23,6 +23,7 @@
 
 - `src/`、`CMakeLists.txt`、`cmake/`：应用入口与交叉编译配置。`CMakeLists.txt` 同时支持 Switch 交叉编译（默认）与 **native 宿主（PC）调试环** 两种配置。
 - `tools/`、`build_guest.sh`、`build_runtime.sh`：资源准备、翻译修正、编译与验证工具。
+- `tools/find_gaps.py`、`tools/analyze_traps.py`、`huecos.toml`、`tools/huecos_excluir.txt`：函数/缺口补全工具链——发现无函数归属的代码空隙、定位 607 个越界 switch trap，并把空隙声明为函数（详见 `docs/PORTING-GAP-ANALYSIS-zh.md` 第 0 步）。
 - `build_pc.sh`：构建并运行 PC 调试环（见下），用 SDK 的 Xenos/Vulkan 在宿主机跑通重编译游戏，作为实机前的调试手段。
 - `dependencies.lock.json`：依赖提交、工具链镜像及补丁哈希。
 - `*-result.json`：各构建阶段留存的检查结果。它们记录历史检查点，未由本仓库 CI 重新执行；早期阶段中的 `switch_compiled: false` 或 `runtime_linked: false` 只描述该阶段。

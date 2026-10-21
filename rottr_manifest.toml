@@ -6,4 +6,13 @@ game_root = "."
 [entrypoint]
 file_path = "default.xex"
 out_directory_path = "generated/default"
-includes = ["analysis_overrides.toml"]
+
+# includes 在本表之前处理，因此本表内设置的条目会覆盖 included 文件。
+#
+#   analysis_overrides.toml   手工维护：具体的函数识别发现，每条带说明
+#   huecos.toml               由 tools/find_gaps.py 生成候选、手工挑选：把
+#                             无函数归属的代码空隙声明为函数，解决间接调用崩溃
+#
+# 若加入 huecos.toml 后 codegen 失败，先把它从本列表移除重跑：某个空隙多半是
+# .text 内嵌数据块而非代码，日志会指出是哪个，从 huecos.toml 删除该行即可。
+includes = ["analysis_overrides.toml", "huecos.toml"]

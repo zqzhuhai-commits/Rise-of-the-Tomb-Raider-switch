@@ -44,6 +44,17 @@
 ### 第 0 步（立刻，可在本环境做代码工作）
 建立 **PC（linux-amd64 / x64）构建目标**，用重编译器通用图形把游戏在 PC 上跑起来。这是参考项目反复强调的第 1 步，也是定位 607 个 trap、缺函数、分片问题最省力的手段。缺这条环，实机上每个崩溃都要靠 addr2line 盲猜。
 
+**函数/缺口补全工具链（已入库，先跑再补）：**
+
+| 工具 | 作用 | 用法 |
+|---|---|---|
+| `tools/find_gaps.py` | 从 `codegen.partition.json` + 生成 C++ 计算每个函数结束地址，找出无函数归属的代码空隙（间接调用崩溃的根源）；输出 `docs/huecos.txt` 报告与候选 `tools/huecos_functions.toml` | `python3 tools/find_gaps.py --min 8` |
+| `tools/analyze_traps.py` | 逐条定位 607 个越界 switch trap：所在文件/函数、switch 表达式、已覆盖 case，输出 `gap-analysis-result.json` 并与 codegen-result.json 核对 | `python3 tools/analyze_traps.py` |
+| `huecos.toml` | 手工挑选后的空隙声明（`[functions]`），已接入 `rottr_manifest.toml` 的 includes | 参考项目用 774 条声明解决同类问题 |
+| `tools/huecos_excluir.txt` | 不得声明为函数的地址（.text 内嵌数据块），codegen 报 "not in any code region" 时移入 | — |
+
+工作流：跑 `analyze_traps.py` 看 trap 集中在哪些跳转表 → 跑 `find_gaps.py` 拿到空隙候选 → 把确实包含代码的空隙起始地址手工挑进 `huecos.toml` → 重新 codegen 与编译。注意空隙可能含多个小函数（8/16 字节 thunk 表），声明后仍崩溃在空隙内部（+8/+24/+64 字节）时按崩溃地址拆分。
+
 ### 第 1 步（需要你的实机）
 按 `TESTING-zh.md` 首次实机启动，收集日志，定位首个运行期故障（线程、动态调用、Xenos 渲染）。同时注意上表平台坑。
 

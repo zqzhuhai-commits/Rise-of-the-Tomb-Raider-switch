@@ -1,0 +1,6 @@
+# 即使空隙也不得声明为函数的地址。tools/find_gaps.py 生成 huecos.toml 时会跳过。
+#
+# "not in any code region" -> "has no blocks - generating stub"
+#   这类地址是 .text 内嵌的数据块。声明为函数会产生空函数，若有人调用它，
+#   会静默返回而不是报告问题（掩盖真实故障）。
+# 运行 codegen 时若某条 huecos 声明报上述错误，把该地址移到这里并重新生成。

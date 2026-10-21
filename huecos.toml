@@ -1,0 +1,15 @@
+# 代码空隙（gaps）声明：由 tools/find_gaps.py 生成候选，手工挑选后填入。
+#
+# 每条声明把一个空隙的起始地址标记为函数，让 codegen 的 Discover 阶段覆盖它，
+# 用于解决运行期 "Call to invalid or unregistered function at guest address 0x..."
+# 类的间接调用崩溃。
+#
+# 不要整块复制 find_gaps.py 的输出：
+#   - 空隙可能是数据块/填充，声明为函数会破坏 codegen（报 "not in any code
+#     region" 的地址移到 tools/huecos_excluir.txt）；
+#   - 一个空隙可能含多个小函数（常见为 8/16 字节 thunk 表），声明起始地址后
+#     若仍崩溃在空隙内部（+8/+24/+64 字节处），需按崩溃地址手工拆分。
+#
+# codegen 失败时先把本文件从 rottr_manifest.toml 的 includes 中移除重跑，
+# 日志会指明是哪条声明出问题，删掉该行再恢复。
+[functions]
