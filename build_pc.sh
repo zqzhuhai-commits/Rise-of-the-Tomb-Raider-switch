@@ -24,6 +24,8 @@ ninja_exe=${ROTTR_NINJA:-"$work_dir/build-tools/bin/ninja"}
 sdk_dir=${ROTTR_SDK_SOURCE:-"$work_dir/masseffect-nx-review/sdk"}
 deps_include=${ROTTR_DEPS_INCLUDE:-"$work_dir/rexglue-sdk-linux/linux-amd64/include"}
 python3 "$project_dir/tools/prepare_codegen.py"
+# 把没有 hook 的游戏函数调用改写为直接调用（LTO 前提；幂等，可 --deshacer 还原）。
+python3 "$project_dir/tools/direct_calls.py" --sdk "$sdk_dir"
 "$cmake_exe" -S "$project_dir" -B "$project_dir/build/pc" -G Ninja \
   -DCMAKE_MAKE_PROGRAM="$ninja_exe" -DCMAKE_BUILD_TYPE=Release \
   -DREXSDK_DIR="$sdk_dir" -DREX_DEPS_INCLUDE="$deps_include" \

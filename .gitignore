@@ -4,6 +4,10 @@
 /artifacts/
 /build/
 /out/
+/pgo/
+docs/huecos.txt
+tools/huecos_functions.toml
+gap-analysis-result.json
 __pycache__/
 *.pyc
 *.keys

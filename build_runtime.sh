@@ -19,5 +19,6 @@ python3 "$project_dir/tools/prepare_sdk.py" "$sdk_dir"
   -DCMAKE_TOOLCHAIN_FILE="$project_dir/cmake/switch-devkitA64.cmake" \
   -DDEVKITPRO="$DEVKITPRO" -DREXSDK_DIR="$sdk_dir" -DREX_DEPS_INCLUDE="$deps_include" \
   -DROTTR_BUILD_RUNTIME=ON -DROTTR_GUEST_OBJECTS_DIR="$guest_dir" \
+  -DROTTR_LTO="${ROTTR_LTO:-OFF}" -DROTTR_PGO="${ROTTR_PGO:-}" \
   -DREXGLUE_SWITCH_NVK_SDK="$driver_dir"
 "$cmake_exe" --build "$project_dir/build/runtime-switch" --target rottr -j "${ROTTR_JOBS:-8}"

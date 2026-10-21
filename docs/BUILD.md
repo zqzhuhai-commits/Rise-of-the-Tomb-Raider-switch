@@ -65,3 +65,34 @@ python3 tools/build_mesa_switch.py
 | ROTTR-Switch-TEST.nsp | 342,744 | `aa4fb3f279fc0665fd3e60b988aee5a81d0eb64b07ec3c761a39143de6e2bc88` |
 
 这些值用于识别已有私有构建；本仓库不包含对应二进制。链接和文件结构检查通过不代表 Switch 已能运行游戏。
+
+## 优化选项（可选，参考移植 nfsmw 的已验证做法）
+
+默认构建不启用以下优化，行为与历史检查点一致。启用时 `build_guest.sh` 与 `build_runtime.sh` 必须传相同值。
+
+### 直接调用（自动执行）
+`build_guest.sh` / `build_pc.sh` 会在 `prepare_codegen.py` 之后自动运行 `tools/direct_calls.py`，把没有 hook 的游戏函数调用 `sub_X(ctx, base)` 改写为 `__imp__sub_X(ctx, base)`，使编译器能跨文件内联（LTO 前提）。幂等；每次 codegen 后必须重跑（脚本已自动做）。若需还原：`python3 tools/direct_calls.py --deshacer`。
+
+### LTO
+```sh
+ROTTR_LTO=ON sh build_guest.sh
+ROTTR_LTO=ON sh build_runtime.sh
+```
+对重编译代码与应用一起做 `-flto=2 -flto-partition=balanced` 链接期优化。注意内存占用大（参考项目约 16 GB 可跑）。
+
+### PGO（两段式）
+```sh
+# 1) 插桩构建（记录 profile；NRO 每 3 分钟把 .gcda 落盘到
+#    sdmc:/switch/rottr-switch/pgo/，src/rottr_pgo.cpp 负责）
+ROTTR_PGO=generar sh build_guest.sh
+ROTTR_PGO=generar sh build_runtime.sh
+# 2) 实机游玩一段（菜单、流程、视频各模式都跑到），把 SD 卡
+#    sdmc:/switch/rottr-switch/pgo/ 下的 .gcda 拷到编译机 ROTTR_PGO_DIR
+#    （默认 work/pgo/）后重编译
+ROTTR_PGO=usar sh build_guest.sh
+ROTTR_PGO=usar sh build_runtime.sh
+```
+两个必须的坑（参考项目逐个踩过）：`-fno-profile-values`（libnx 不用 `tpidr_el0`，间接调用插桩启动即崩）与 `-fprofile-correction`（多线程累加计数器为负，GCC 视为损坏 profile）。两次构建必须使用同一份生成代码/源码与同一构建目录路径。
+
+### 构建脚本新增覆盖变量
+`ROTTR_LTO`、`ROTTR_PGO`（见上），沿用既有 `ROTTR_*` 覆盖惯例。
