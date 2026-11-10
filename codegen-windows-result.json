@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-10",
+  "platform": "Windows amd64",
+  "tool": "ReXGlue v0.10.0 official win-amd64 release",
+  "exit_code": 0,
+  "base_xex_sha256": "47e6476f6d393d86612e7af938979e9c706b54dc526d8422413711999d41e585",
+  "cpp_files": 210,
+  "cpp_bytes": 222584176,
+  "registered_game_functions": 45487,
+  "trap_markers": 607,
+  "dcbz_fixed": 2,
+  "runtime_tested": false,
+  "title_update_applied": false,
+  "false_function_hint_removed": "0x825A2570",
+  "local_branch_labels_verified": true,
+  "huecos_hints": 630
+}
