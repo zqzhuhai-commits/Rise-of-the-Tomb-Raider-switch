@@ -13,6 +13,7 @@ guest_dir=${ROTTR_GUEST_OBJECTS_DIR:-"$project_dir/build/guest-switch/CMakeFiles
 if [ ! -f "$guest_dir/rottr_init.cpp.obj" ] && [ -d "$project_dir/artifacts/guest_objects" ]; then
   guest_dir="$project_dir/artifacts/guest_objects"
 fi
+python3 "$project_dir/tools/repair_vendor_links.py" "$sdk_dir/thirdparty"
 python3 "$project_dir/tools/prepare_sdk.py" "$sdk_dir"
 "$cmake_exe" -S "$project_dir" -B "$project_dir/build/runtime-switch" -G Ninja \
   -DCMAKE_MAKE_PROGRAM="$ninja_exe" -DCMAKE_BUILD_TYPE=Release \
