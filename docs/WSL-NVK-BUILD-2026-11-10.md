@@ -61,4 +61,20 @@ CPU 对象来自 GCC 16.1.0，运行层使用 GCC 15.2.0。已用两版编译器
 常量并比较，PPCContext 均为 2,688 字节、64 字节对齐，所查关键字段偏移完全一致。
 见 `context-layout-result.json`。这只验证结构布局，不能替代运行兼容性或实机测试。
 
-完整运行层正在构建；本阶段尚未记录新的 NRO 成功结果，也未运行游戏。
+## 最终 Release NRO
+
+完整运行层已链接、NRO 已打包。最终 CPU 与运行层均使用固定 GCC 15.2.0；
+CPU Release 配置为 -O3，210 个对象和 45,487 个函数别名全部验证通过。
+此前的 GCC 16 Debug NRO 仅作为中间检查点，最终测试包使用同版本编译器的 Release 对象。
+
+- 版本：`0.0.2-research`。
+- 文件大小：79,136,965 字节。
+- SHA-256：`8eaefd42ad4554527c6fa574c61bbbea487c9bec419632a90b775096280c7827`。
+- NRO0 段边界、ASET、NACP 标题及版本检查通过。
+- ELF64 / AArch64 / PIE；`_start` 和入口地址均为 0。
+- 结构化结果：`guest-build-release-wsl-result.json`、`nro-release-wsl-result.json`。
+
+本地测试包只包含 NRO、配置、报告与说明；游戏资源、NRO 和其他游戏派生构建产物
+不提交公开仓库。没有新建 NSP；使用完整内存 hbmenu 启动即可。
+TU4 / DLC 尚未接入，607 个越界 switch trap 仍需运行调试。
+**尚未在 Switch 实机启动，不能认定游戏已可玩。**
