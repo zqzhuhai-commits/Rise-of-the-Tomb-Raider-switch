@@ -1,11 +1,17 @@
 """Fetch the official devkitPro AMD64 toolchain image, extracting only /opt/devkitpro."""
-import hashlib, json, pathlib, tarfile, urllib.request
+import argparse, hashlib, json, pathlib, tarfile, urllib.request
 
 REPO = 'devkitpro/devkita64'
 DIGEST = 'sha256:82575ea78651b530b2e232bb3799cfd1fe331514e053d5f724bb4b28191fb79d'
-ROOT = pathlib.Path(__file__).resolve().parents[2] / 'devkit-root'
-CACHE = pathlib.Path(__file__).resolve().parents[2] / 'toolchain-downloads'
-CACHE.mkdir(exist_ok=True)
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--root', type=pathlib.Path, default=pathlib.Path(__file__).resolve().parents[2] / 'devkit-root')
+parser.add_argument('--cache', type=pathlib.Path, default=pathlib.Path(__file__).resolve().parents[2] / 'toolchain-downloads')
+parser.add_argument('--offline', action='store_true', help='Use a previously downloaded manifest and verified layer files')
+args = parser.parse_args()
+ROOT = args.root.resolve()
+CACHE = args.cache.resolve()
+ROOT.mkdir(parents=True, exist_ok=True)
+CACHE.mkdir(parents=True, exist_ok=True)
 
 def get(url, token=None, accept=None):
     headers = {}
@@ -13,13 +19,18 @@ def get(url, token=None, accept=None):
     if accept: headers['Accept'] = accept
     return urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=45)
 
-token = json.load(get(f'https://auth.docker.io/token?service=registry.docker.io&scope=repository:{REPO}:pull'))['token']
-manifest = json.load(get(f'https://registry-1.docker.io/v2/{REPO}/manifests/{DIGEST}', token,
-    'application/vnd.oci.image.manifest.v1+json, application/vnd.docker.distribution.manifest.v2+json'))
-(CACHE/'manifest.json').write_text(json.dumps(manifest, indent=2))
+token = None
+if args.offline:
+    manifest = json.loads((CACHE/'manifest.json').read_text(encoding='utf-8-sig'))
+else:
+    token = json.load(get(f'https://auth.docker.io/token?service=registry.docker.io&scope=repository:{REPO}:pull'))['token']
+    manifest = json.load(get(f'https://registry-1.docker.io/v2/{REPO}/manifests/{DIGEST}', token,
+        'application/vnd.oci.image.manifest.v1+json, application/vnd.docker.distribution.manifest.v2+json'))
+    (CACHE/'manifest.json').write_text(json.dumps(manifest, indent=2))
 for i, layer in enumerate(manifest['layers']):
     path = CACHE / (layer['digest'].replace(':', '-') + '.tgz')
     if not path.exists() or path.stat().st_size != layer['size']:
+        if args.offline: raise FileNotFoundError('Missing or incomplete cached layer: '+str(path))
         print('Downloading layer', i, 'MiB', round(layer['size']/2**20), flush=True)
         with get(f'https://registry-1.docker.io/v2/{REPO}/blobs/{layer["digest"]}', token) as src, path.open('wb') as dst:
             while block := src.read(4*1024*1024): dst.write(block)
