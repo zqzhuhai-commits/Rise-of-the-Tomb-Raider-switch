@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-10",
+  "mesa_commit": "d4a00ea0ab3f59afb967cc5d779e4263d237bd77",
+  "mesa_version": "26.2.3",
+  "native_llvm": "21.1.8",
+  "compiler": "devkitA64 GCC 15.2.0",
+  "rust": "nightly-2026-09-26",
+  "bindgen": "0.73.0",
+  "cbindgen": "0.29.0",
+  "file_bytes": 89625370,
+  "sha256": "e57873077a9429b29b6956fca965c934b51208ac61ba11400f75df9e8ad4ee2c",
+  "elf64_aarch64_members": 1545,
+  "invalid_members": [],
+  "non_elf_members": [],
+  "runtime_linked": false,
+  "device_tested": false
+}
