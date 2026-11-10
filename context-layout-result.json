@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-10",
+  "compilers": [
+    "devkitA64 GCC 15.2.0",
+    "devkitA64 GCC 16.1.0"
+  ],
+  "identical": true,
+  "layout": {
+    "size": 2688,
+    "alignment": 64,
+    "r0": 8,
+    "r1": 16,
+    "f0": 336,
+    "v0": 592,
+    "cr0": 292,
+    "lr": 256,
+    "ctr": 264,
+    "xer": 272,
+    "fpscr": 324
+  },
+  "scope": "PPCContext layout only; does not establish full runtime compatibility"
+}
