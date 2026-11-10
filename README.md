@@ -1,7 +1,7 @@
 # Rise of the Tomb Raider — Switch 移植研究
 
 
-2026-11-10 本地复现发现并修正一条错误的函数空隙提示；新增 Windows CPU 构建入口。见 [本次构建记录](docs/WINDOWS-BRINGUP-2026-11-10.md)。以下 2026-10-22 的数量与验证状态为历史检查点。
+2026-11-10：已修正一条错误函数提示，完成固定 GCC 15.2.0 的 Release CPU 编译、真实 NVK 构建、运行层链接和 `0.0.2-research` NRO 打包。NRO 为 79,136,965 字节，结构检查通过，**尚未实机验证**。见 [本次构建记录](docs/WSL-NVK-BUILD-2026-11-10.md) 和 `nro-release-wsl-result.json`。以下 2026-10-22 的数量与验证状态为历史检查点。
 《古墓丽影：崛起》Xbox 360 基础版面向 Switch / Atmosphère 的静态重编译研究。采用 ReXGlue 将 PowerPC 程序转换为 C++，再交叉编译至 ARM64；当前图形路径为 SDK 的 Xenos / Vulkan FSI 后端。
 
 **截至 2026-10-22：已在真实生成数据上跑通全部工具链（codegen 复现、607 trap 定位、631 条空隙声明经 codegen 验证、151,061 处直接调用改写）；已构建研究版 NRO 和入口 NSP，尚未进行 Switch 实机验证。此仓库处于首次启动验证阶段，不能认定游戏已可玩。**
