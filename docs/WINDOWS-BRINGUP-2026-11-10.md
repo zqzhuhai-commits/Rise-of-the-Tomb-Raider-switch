@@ -43,6 +43,13 @@ Debug 用于较快验证编译修复。可使用 `-BuildDir` 单独保存不同�
 
 游戏生成代码、对象文件和原始资源不上传仓库。基础版构建不合并 TU4 或 DLC。
 
+## 本次实际编译结果
+
+Debug 配置退出码为 0：210 / 210 个 C++ 对象均为 AArch64 ELF64 relocatable，
+45,487 个游戏函数弱别名全部存在并与实现地址匹配，无缺失、无地址不一致。
+完整结构化结果见 `guest-build-windows-result.json`。这不是 Release 性能验证，
+也未链接完整运行层。
+
 ## 最终运行层
 
 CPU 对象通过并不等于已生成可运行的 NRO。本机现有 WSL Ubuntu 的 Mesa
