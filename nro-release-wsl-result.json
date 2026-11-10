@@ -1,0 +1,56 @@
+{
+  "format": "NRO0",
+  "file_bytes": 79136965,
+  "nro_image_bytes": 79114240,
+  "sha256": "8eaefd42ad4554527c6fa574c61bbbea487c9bec419632a90b775096280c7827",
+  "segments": [
+    {
+      "name": "text",
+      "offset": 0,
+      "size": 62799872
+    },
+    {
+      "name": "rodata",
+      "offset": 62799872,
+      "size": 14749696
+    },
+    {
+      "name": "data",
+      "offset": 77549568,
+      "size": 1564672
+    }
+  ],
+  "segments_valid": true,
+  "bss_size": 6082560,
+  "assets": {
+    "icon": {
+      "offset": 56,
+      "size": 6285
+    },
+    "nacp": {
+      "offset": 6341,
+      "size": 16384
+    },
+    "romfs": {
+      "offset": 0,
+      "size": 0
+    }
+  },
+  "nacp_title": "Rise of the Tomb Raider",
+  "nacp_version": "0.0.2-research",
+  "runtime_linked": true,
+  "device_tested": false,
+  "date": "2026-11-10",
+  "build_type": "Release",
+  "guest_compiler": "devkitA64 GCC 15.2.0",
+  "runtime_compiler": "devkitA64 GCC 15.2.0",
+  "guest_optimization": "-O3",
+  "guest_objects": 210,
+  "guest_function_aliases": 45487,
+  "elf_start_address": "0x0",
+  "elf_machine": "AArch64",
+  "elf_type": "DYN",
+  "trap_markers": 607,
+  "title_update_applied": false,
+  "dlc_integrated": false
+}
