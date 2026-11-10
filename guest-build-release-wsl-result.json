@@ -1,0 +1,17 @@
+{
+  "compiled_cpp_objects": 210,
+  "expected_cpp_objects": 210,
+  "expected_guest_entries": 45487,
+  "defined_weak_guest_entries": 45487,
+  "missing_guest_aliases": [],
+  "alias_address_mismatches": [],
+  "all_aarch64_elf64_relocatable": true,
+  "invalid_objects": [],
+  "compiler": "aarch64-none-elf-g++ (devkitA64) 15.2.0",
+  "runtime_linked": false,
+  "device_tested": false,
+  "date": "2026-11-10",
+  "build_type": "Release",
+  "optimization": "-O3",
+  "base_xex_sha256": "47e6476f6d393d86612e7af938979e9c706b54dc526d8422413711999d41e585"
+}
