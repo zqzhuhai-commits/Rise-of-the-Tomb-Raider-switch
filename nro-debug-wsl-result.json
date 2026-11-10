@@ -1,0 +1,43 @@
+{
+  "format": "NRO0",
+  "file_bytes": 209393861,
+  "nro_image_bytes": 209371136,
+  "sha256": "8ee8bd4c40aff4b9aef0521129ff8935876b9556bc0af6d465f16fc356f51015",
+  "segments": [
+    {
+      "name": "text",
+      "offset": 0,
+      "size": 193466368
+    },
+    {
+      "name": "rodata",
+      "offset": 193466368,
+      "size": 14356480
+    },
+    {
+      "name": "data",
+      "offset": 207822848,
+      "size": 1548288
+    }
+  ],
+  "segments_valid": true,
+  "bss_size": 6082560,
+  "assets": {
+    "icon": {
+      "offset": 56,
+      "size": 6285
+    },
+    "nacp": {
+      "offset": 6341,
+      "size": 16384
+    },
+    "romfs": {
+      "offset": 0,
+      "size": 0
+    }
+  },
+  "nacp_title": "Rise of the Tomb Raider",
+  "nacp_version": "0.0.1-research",
+  "runtime_linked": true,
+  "device_tested": false
+}
