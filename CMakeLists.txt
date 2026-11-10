@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.25)
-project(rottr_switch_research VERSION 0.0.1 LANGUAGES C CXX)
+project(rottr_switch_research VERSION 0.0.2 LANGUAGES C CXX)
 
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -171,7 +171,7 @@ if(ROTTR_BUILD_RUNTIME)
             set_property(TARGET rottr APPEND PROPERTY
                 LINK_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/tools/orden_funciones.ld")
         endif()
-        rexglue_switch_add_nro(rottr NAME "Rise of the Tomb Raider" AUTHOR "Switch port contributors" VERSION "0.0.1-research")
+        rexglue_switch_add_nro(rottr NAME "Rise of the Tomb Raider" AUTHOR "Switch port contributors" VERSION "0.0.2-research")
     else()
         message(STATUS
             "PC debug build: 'rottr' runs the game with the SDK's Xenos/Vulkan backend. "
