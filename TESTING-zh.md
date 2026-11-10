@@ -1,5 +1,11 @@
 # 《古墓丽影：崛起》Switch 兼容性测试版
 
+
+## 2026-11-10 新测试包说明
+
+`0.0.2-research` 已完成 Release CPU、NVK 和 NRO 构建，尚未实机验证。新测试包仅含 NRO，不附 NSP；按住 R 启动已安装游戏进入完整内存 hbmenu 后运行。将已提取的基础游戏 81 个文件（保留 movies 子目录）放入 `switch/rottr-switch/game/`，保留原始 .tiger，不合并 TU4 / DLC。详见 [本次构建记录](docs/WSL-NVK-BUILD-2026-11-10.md)。
+
+以下 NSP 打包和“完整资源提取尚未执行”等描述属于较早的历史检查点，新包以包内 README-zh.txt 为准。
 本次已经实际完成 ARM64 编译、Horizon 运行层链接及 NRO/NSP 打包。尚未在 Switch 上启动验证，不能据此认定可玩、可通关或达到某个帧率。
 
 本文适用于已经自行构建或另行取得研究测试包的开发者。公开仓库只提供源码和检查点记录，不包含以下 NRO / NSP。
